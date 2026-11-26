@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="jade" x2="0" y2="1"><stop stop-color="#397b79"/><stop offset="1" stop-color="#153f4b"/></linearGradient><linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff0bf"/><stop offset="1" stop-color="#d8a65a"/></linearGradient></defs>
+<rect width="512" height="512" rx="100" fill="url(#jade)"/>
+<circle cx="256" cy="244" r="180" fill="none" stroke="#e4b96d" stroke-width="9"/>
+<circle cx="256" cy="244" r="164" fill="none" stroke="#e4b96d" stroke-width="2" opacity=".5"/>
+<path d="M164 323C192 289 181 224 206 193C228 165 281 165 305 193C332 224 319 289 348 323Z" fill="url(#gold)"/>
+<path d="M189 324h134" stroke="#a66b3f" stroke-width="9" stroke-linecap="round"/>
+<circle cx="256" cy="351" r="15" fill="#f5ddb0"/>
+<path d="M256 177v-34m-12 0h24M222 174c-48-1-73-37-60-64 26 1 61 25 60 64m68 0c48-1 73-37 60-64-26 1-61 25-60 64" fill="none" stroke="#e4b96d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M232 257l24-26 24 26-24 27Z" fill="#2e7274"/>
+<path d="M81 392c71-42 113-16 175 7 72 27 112-35 175-25v45H81Z" fill="#c88d52"/>
+<path d="M81 420c68-17 115-6 173 13 66 23 122-9 177-19v35H81Z" fill="#edc57d"/>
+<path d="M256 69l7 16-7 16-7-16Z" fill="#fff0bf"/>
+</svg>

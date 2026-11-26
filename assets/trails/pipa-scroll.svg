@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="360" viewBox="0 0 720 360">
+  <defs>
+    <linearGradient id="silk" x2="90%" y2="100%" gradientUnits="objectBoundingBox"><stop stop-color="#7bb0a0"/><stop offset=".52" stop-color="#427e77"/><stop offset="1" stop-color="#285759"/></linearGradient>
+    <linearGradient id="wood" x2="100%" y2="0%"><stop stop-color="#d6904f"/><stop offset=".52" stop-color="#f8d786"/><stop offset="1" stop-color="#c87640"/></linearGradient>
+    <g id="cloud" fill="none" stroke="#e0c595" stroke-width="2"><path d="M-60 0q15 0 20-5t12-4q-4-14 9-13 9-15 19-5 10-2 14 8 16-3 16 9 16 7 36 6-16 8-48 6l-24-2q-23 2-54 0Z"/><path d="M-23-8q10-2 12-8 10-10 17 1M4-6q10-10 20-2"/></g>
+    <g id="flower"><path d="M0 0Q-11-8 0-18Q11-8 0 0M0 0Q7-12 18-6Q17 5 0 0M0 0Q14 5 10 16Q-2 15 0 0M0 0Q-2 15-13 15Q-15 4 0 0M0 0Q-12 6-17-5Q-10-12 0 0" fill="#d9b978" stroke="#354f48" stroke-width="1"/><circle r="4" fill="#a95847"/></g>
+    <pattern id="mesh" width="50" height="32" patternUnits="userSpaceOnUse"><path d="m0 16 25-14 25 14-25 14Z" fill="none" stroke="#f4dab0" stroke-opacity=".1"/><circle cx="25" cy="16" r="1.6" fill="#efd2a1" opacity=".28"/></pattern>
+  </defs>
+  <rect width="720" height="360" fill="url(#silk)"/><rect width="720" height="360" fill="url(#mesh)"/>
+  <circle cx="361" cy="175" r="145" fill="#e7c688" stroke="#ad7048" stroke-width="3"/><circle cx="361" cy="175" r="137" fill="#c8875f" stroke="#f7dda3" stroke-width="2"/>
+  <circle cx="361" cy="175" r="122" fill="none" stroke="#ebca8a" stroke-width="1" stroke-dasharray="4 5"/>
+  <g opacity=".87"><use xlink:href="#cloud" transform="translate(130 107)"/><use xlink:href="#cloud" transform="translate(598 235)"/><use xlink:href="#cloud" transform="translate(534 69) scale(.6)"/><use xlink:href="#cloud" transform="translate(152 298) scale(.77)"/></g>
+  <path d="M3 280Q104 343 180 244T328 124Q339 153 265 183T163 278Q92 349 3 299Z" fill="#9e4b45" stroke="#f4ce8e" stroke-width="3"/>
+  <path d="M717 80Q630 36 560 104T409 196Q394 174 472 150T553 100Q639 9 717 61Z" fill="#9e4b45" stroke="#f4ce8e" stroke-width="3"/>
+  <g transform="translate(366 182) rotate(14)">
+    <path d="M-10-156q13-18 27-3l-9 27-1 81c7 37 56 74 55 111-1 43-25 69-59 69-38 0-66-28-65-63 0-38 45-77 50-111l1-88Z" fill="#874d38" stroke="#543e33" stroke-width="5"/>
+    <path d="M-5-124h10l-1 79c9 40 50 72 50 107 0 37-25 59-52 59-34 0-55-25-55-57 0-34 44-72 49-111Z" fill="url(#wood)" stroke="#f4d193" stroke-width="3"/>
+    <path d="M-6-146h15l-3 18H-6Z" fill="#294e4d" stroke="#dfbc7a" stroke-width="2"/>
+    <g stroke="#b88142" stroke-width="5"><path d="M-12-136h-8m29 8h10m-31 1h-10m30 9h11"/><path d="M-12-74h22m-23 11h23m-25 10h25m-27 10h28m-30 12h32m-35 14h38"/></g>
+    <path d="M-24 80q24 8 48 0l-3 12q-20 6-43 0Z" fill="#754539" stroke="#f1cc8c" stroke-width="2"/>
+    <g fill="none" stroke="#80583d" stroke-width="2"><path d="m-6-131-5 216m9-217-2 218m6-218 2 218m3-218 5 216"/></g>
+    <path d="M-33 39q15-15 13 0m41 0q8-15 14-3" fill="none" stroke="#96623e" stroke-width="4"/>
+    <use xlink:href="#flower" transform="translate(0 105) scale(.53)"/>
+  </g>
+  <g fill="none" stroke="#edcf91" stroke-width="2"><path d="M19 348H194q14 0 19-7m296 7H701M19 12H227m271 0h203"/><path d="m19 12 7 6-7 6-7-6Zm682 324 7 6-7 6-7-6Z"/></g>
+  <use xlink:href="#flower" transform="translate(139 209) scale(.69)"/><use xlink:href="#flower" transform="translate(574 151) scale(.64)"/>
+</svg>

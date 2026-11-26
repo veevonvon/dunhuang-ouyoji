@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/world_scene.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/world/hero.tscn" id="2"]
+
+[ext_resource type="Script" path="res://scripts/characters/deer_actor.gd" id="Deer"]
+[ext_resource type="Script" path="res://scripts/characters/effects.gd" id="Effect"]
+
+[node name="HexiWorld" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Landscape" type="Sprite2D" parent="."]
+centered = false
+z_index = -10
+
+[node name="Tracks" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("Effect")
+
+[node name="Accents" type="Node2D" parent="."]
+z_index = 64
+script = ExtResource("Effect")
+
+[node name="Hero" parent="." instance=ExtResource("2")]
+z_index = 24
+
+[node name="Deer" type="Node2D" parent="."]
+script = ExtResource("Deer")
+
+[node name="Camera" type="Camera2D" parent="."]
+limit_left = 0
+limit_top = 0
+limit_right = 1920
+limit_bottom = 720
+position_smoothing_enabled = true
+position_smoothing_speed = 5.0

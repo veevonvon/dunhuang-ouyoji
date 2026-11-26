@@ -1,0 +1,2000 @@
+{
+  "schemaVersion": 1,
+  "stages": [
+    {
+      "id": "wuwei",
+      "name": "武威",
+      "oldName": "凉州",
+      "subtitle": "驼铃响，出发啦",
+      "intro": "这里是河西走廊东边的一站。小商队准备穿过绿洲，去认识远方的朋友。先帮骆驼整理行囊吧！",
+      "x": 91,
+      "y": 64,
+      "color": "#ab5941",
+      "icon": "camel"
+    },
+    {
+      "id": "zhangye",
+      "name": "张掖",
+      "oldName": "甘州",
+      "subtitle": "把雪山的水送进绿洲",
+      "intro": "雪山像一座大水库。河流走过张掖，田野和树木喝到了水。动动小手，让水渠接起来！",
+      "x": 78,
+      "y": 46,
+      "color": "#4c7970",
+      "icon": "leaf"
+    },
+    {
+      "id": "jiuquan",
+      "name": "酒泉",
+      "oldName": "肃州",
+      "subtitle": "找找丝路上的宝物",
+      "intro": "丝路上往来的朋友，带来了货物、故事和新想法。把相同的图案找出来，认识这些小宝物。",
+      "x": 63,
+      "y": 63,
+      "color": "#ae8050",
+      "icon": "grape"
+    },
+    {
+      "id": "jiayuguan",
+      "name": "嘉峪关",
+      "oldName": "雄关",
+      "subtitle": "跟着商队穿过关城",
+      "intro": "雄伟的关城站在山与沙漠之间。我们来走一条安全的小路，穿过关门，再看看它的历史。",
+      "x": 46,
+      "y": 55,
+      "color": "#9f6946",
+      "icon": "gate"
+    },
+    {
+      "id": "guazhou",
+      "name": "瓜州",
+      "oldName": "绿洲驿站",
+      "subtitle": "听见千年前的乐声",
+      "intro": "来到瓜州附近的石窟，我们能在壁画上看到音乐和舞蹈。跟着花朵的提示，奏一段自己的小曲子。",
+      "x": 28,
+      "y": 63,
+      "color": "#547e87",
+      "icon": "pipa"
+    },
+    {
+      "id": "dunhuang",
+      "name": "敦煌",
+      "oldName": "沙州",
+      "subtitle": "让千年的颜色亮起来",
+      "intro": "沙丘、泉水、石窟和壁画，在这里相遇。用拼图和颜色认识敦煌，做一个爱护文物的小小守护者。",
+      "x": 10,
+      "y": 55,
+      "color": "#aa5140",
+      "icon": "lotus"
+    }
+  ],
+  "activities": [
+    {
+      "id": "pack",
+      "stageId": "wuwei",
+      "title": "小小商队出发",
+      "subtitle": "找一找 · 帮骆驼装行囊",
+      "instruction": "点一点，把水、粮食、丝绸和书卷装进行囊。",
+      "hint": "看看四个行囊上的图案，再找相同的物品。",
+      "icon": "camel",
+      "stamp": "驼铃小旅人",
+      "fact": "silk",
+      "color": "#ad6146"
+    },
+    {
+      "id": "water",
+      "stageId": "zhangye",
+      "title": "绿洲喝水啦",
+      "subtitle": "转一转 · 接通雪山水渠",
+      "instruction": "点水渠，让它转一转。把左边的水接到右下角的小树。",
+      "hint": "先从左上角开始，沿着亮起来的水流，一段一段接。",
+      "icon": "leaf",
+      "stamp": "绿洲好帮手",
+      "fact": "heihe",
+      "color": "#4b7b70"
+    },
+    {
+      "id": "memory",
+      "stageId": "jiuquan",
+      "title": "丝路寻宝",
+      "subtitle": "翻一翻 · 找到相同宝物",
+      "instruction": "一次翻两张，找到一模一样的宝物。",
+      "hint": "不着急，先记住一张牌上的图案，再去找它的朋友。",
+      "icon": "treasure",
+      "stamp": "丝路小发现家",
+      "fact": "exchange",
+      "color": "#a47b42"
+    },
+    {
+      "id": "route",
+      "stageId": "jiayuguan",
+      "title": "穿过大关城",
+      "subtitle": "走一走 · 带商队过关",
+      "instruction": "点骆驼旁边的小路，去找右下角的关门。",
+      "hint": "小商队只能一步一步走。绕开石头，试试亮着的小路。",
+      "icon": "gate",
+      "stamp": "关城领路人",
+      "fact": "jiayu",
+      "color": "#986c50"
+    },
+    {
+      "id": "music",
+      "stageId": "guazhou",
+      "title": "花雨小乐队",
+      "subtitle": "听一听 · 跟着花朵弹奏",
+      "instruction": "先看花朵亮起的顺序，再按同样的顺序点花朵。",
+      "hint": "可以随时再听一次。没有声音也没关系，看看哪朵花亮了。",
+      "icon": "pipa",
+      "stamp": "花雨小乐师",
+      "fact": "music",
+      "color": "#577b8f"
+    },
+    {
+      "id": "mural",
+      "stageId": "dunhuang",
+      "title": "壁画里的小鹿",
+      "subtitle": "拼一拼 · 找回完整画面",
+      "instruction": "先选一块画片，再点上面同样的位置。",
+      "hint": "看看淡淡的底图：小鹿在中间，莲花在左下角。",
+      "icon": "puzzle",
+      "stamp": "壁画小守护者",
+      "fact": "mogao",
+      "color": "#ad5c44"
+    },
+    {
+      "id": "paint",
+      "stageId": "dunhuang",
+      "title": "我的矿彩莲花",
+      "subtitle": "涂一涂 · 画出你的敦煌",
+      "instruction": "先选一种颜色，再点花瓣。每一片都可以有自己的颜色。",
+      "hint": "颜色没有对错。把十片花瓣都涂上颜色，就能收下印章！",
+      "icon": "palette",
+      "stamp": "矿彩小画家",
+      "fact": "pigments",
+      "color": "#4c7d7b"
+    },
+    {
+      "id": "history",
+      "stageId": "jiayuguan",
+      "title": "时光排排队",
+      "subtitle": "排一排 · 故事有先有后",
+      "instruction": "看看上面的故事线，把下面四张卡片按先后顺序放好。",
+      "hint": "从最早的汉代开始，然后是莫高窟、明代关城，最后是今天的保护。",
+      "icon": "scroll",
+      "stamp": "时光小向导",
+      "fact": "protect",
+      "color": "#8c7250"
+    },
+    {
+      "id": "weave",
+      "stageId": "wuwei",
+      "title": "织一条彩带",
+      "subtitle": "织一织 · 让花纹排好队",
+      "instruction": "看看彩带小样，选一种彩线，再点同样位置的空格。",
+      "hint": "花、叶子、太阳，各有一种颜色。从第一行开始，一格一格对照小样。",
+      "icon": "silk",
+      "stamp": "彩带小巧手",
+      "fact": "silk",
+      "color": "#ab6357"
+    },
+    {
+      "id": "trade",
+      "stageId": "jiuquan",
+      "title": "公平小集市",
+      "subtitle": "称一称 · 让两边一样重",
+      "instruction": "数数左边有几颗点，给右边放小砝码，让两边一样重。",
+      "hint": "放多了，可以取回一块。三颗、四颗、五颗，都能用一、二、三的小砝码凑出来。",
+      "icon": "grape",
+      "stamp": "集市好朋友",
+      "fact": "exchange",
+      "color": "#a57c42"
+    },
+    {
+      "id": "stars",
+      "stageId": "dunhuang",
+      "title": "星光连连看",
+      "subtitle": "连一连 · 给夜空画故事",
+      "instruction": "从第一颗开始，跟着数字和闪光，把星星一颗一颗连起来。",
+      "hint": "下一颗星星会发光。先找到它，再点一下，不用赶时间。",
+      "icon": "star",
+      "stamp": "星空小画家",
+      "fact": "flying",
+      "color": "#52778f"
+    }
+  ],
+  "facts": [
+    {
+      "id": "corridor",
+      "stageId": "all",
+      "title": "为什么叫河西走廊",
+      "child": "黄河的西边，有一条夹在山间的长长通道，好像大地的走廊。",
+      "parent": "河西走廊因地处黄河以西、地形狭长而得名。游戏选择六个旅行站点，不等于今天行政区划的完整名单；现代河西地区还包括金昌等地。",
+      "icon": "map",
+      "source": "https://ydyl.gansu.gov.cn/gsydyl/spgs/slgsrdzt/hxzl/",
+      "sourceName": "甘肃省一带一路建设网",
+      "category": "山河"
+    },
+    {
+      "id": "qilian",
+      "stageId": "all",
+      "title": "祁连雪山",
+      "child": "高高的雪山，把珍贵的水送给山下的绿洲。",
+      "parent": "祁连山位于河西走廊南侧。山区降水、冰雪融水等共同滋养内陆河，不宜简单理解为河水全部来自冰川。",
+      "icon": "mountain",
+      "source": "https://www.cnern.ac.cn/getContent.action?article_class_id=9&class_id=1202&id=42677",
+      "sourceName": "国家生态系统观测研究网络",
+      "category": "山河"
+    },
+    {
+      "id": "oasis",
+      "stageId": "all",
+      "title": "绿洲",
+      "child": "有了水，沙漠和戈壁之间，也能长出树木和庄稼。",
+      "parent": "河西走廊的城镇与农业依托绿洲水资源发展。绿洲之间的交通促进了欧亚交流。",
+      "icon": "leaf",
+      "source": "https://www.cnern.ac.cn/getContent.action?article_class_id=9&class_id=1202&id=42677",
+      "sourceName": "国家生态系统观测研究网络",
+      "category": "山河"
+    },
+    {
+      "id": "silk",
+      "stageId": "wuwei",
+      "title": "轻轻的丝绸",
+      "child": "柔软的丝绸，曾跟着商队走向很远的地方。",
+      "parent": "丝绸是丝绸之路贸易的代表性商品之一，但丝路传播的远不止丝绸，还有技术、艺术与知识。",
+      "icon": "silk",
+      "source": "https://www.chnmuseum.cn/Portals/0/web/zt/20170916qhwm/pc/index.html",
+      "sourceName": "中国国家博物馆",
+      "category": "丝路"
+    },
+    {
+      "id": "camel",
+      "stageId": "wuwei",
+      "title": "双峰骆驼",
+      "child": "宽宽的脚掌和两个驼峰，帮助骆驼适应干旱的旅途。",
+      "parent": "双峰驼有两个驼峰，驼峰主要储存脂肪，并不是直接装水的水袋。宽大的脚掌帮助它适应松软地面。",
+      "icon": "camel",
+      "source": "https://www.nhm.ac.uk/discover/how-do-camels-survive-in-deserts.html",
+      "sourceName": "英国自然历史博物馆",
+      "category": "丝路"
+    },
+    {
+      "id": "shiyang",
+      "stageId": "wuwei",
+      "title": "石羊河",
+      "child": "武威的小树和田野，也有自己的河流朋友。",
+      "parent": "石羊河、黑河、疏勒河是河西走廊主要内陆河水系。石羊河流域对应走廊东部的重要绿洲。",
+      "icon": "water",
+      "source": "https://www.cnern.ac.cn/getContent.action?article_class_id=9&class_id=1202&id=42677",
+      "sourceName": "国家生态系统观测研究网络",
+      "category": "山河"
+    },
+    {
+      "id": "heihe",
+      "stageId": "zhangye",
+      "title": "黑河与张掖绿洲",
+      "child": "河水流过张掖，让田野变得绿油油。",
+      "parent": "黑河源出祁连山区，滋养张掖绿洲。引水游戏仅表达水路连通，不模拟真实水利工程。",
+      "icon": "water",
+      "source": "https://www.zhangye.gov.cn/szb/dzdt/njbz/201605/t20160523_51891_ghb.html",
+      "sourceName": "张掖市史志办公室",
+      "category": "山河"
+    },
+    {
+      "id": "danxia",
+      "stageId": "zhangye",
+      "title": "彩色丘陵",
+      "child": "张掖有彩色的山丘，好像大地叠起的彩带。",
+      "parent": "张掖彩色丘陵以色彩鲜明的沉积岩层和地形景观著称。游戏用矿物色进行艺术概括，实际地貌不是颜料涂成的。",
+      "icon": "mountain",
+      "source": "https://www.unesco.org/en/iggp/zhangye-unesco-global-geopark",
+      "sourceName": "联合国教科文组织",
+      "category": "山河"
+    },
+    {
+      "id": "exchange",
+      "stageId": "jiuquan",
+      "title": "相遇的丝绸之路",
+      "child": "人们带着货物来，也带来了音乐、故事和新想法。",
+      "parent": "丝绸之路是长期发展、方向多样的交流网络，不是一条固定的单线道路。河西走廊是其中重要的通道。",
+      "icon": "treasure",
+      "source": "https://whc.unesco.org/en/list/1442/",
+      "sourceName": "联合国教科文组织",
+      "category": "丝路"
+    },
+    {
+      "id": "grape",
+      "stageId": "jiuquan",
+      "title": "葡萄也能变花纹",
+      "child": "葡萄还能变成漂亮的花纹，绕在古人的铜镜上。",
+      "parent": "中国国家博物馆收藏的唐代瑞兽葡萄纹铜镜，把葡萄枝叶与动物图案组合。这是交流艺术的例子，不表示该器物出土于酒泉，也不把葡萄传播归于某一个人。",
+      "icon": "grape",
+      "source": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202208/t20220811_256923.shtml",
+      "sourceName": "中国国家博物馆",
+      "category": "丝路"
+    },
+    {
+      "id": "gobi",
+      "stageId": "jiuquan",
+      "title": "戈壁与沙漠",
+      "child": "有的地面铺着小石头，有的地方是软软的沙丘。",
+      "parent": "河西走廊分布着绿洲、荒漠、戈壁和沙漠等景观。长卷是艺术概括，真实的河西走廊并非连续的沙海。",
+      "icon": "sun",
+      "source": "https://www.cnern.ac.cn/getContent.action?article_class_id=9&class_id=1202&id=42677",
+      "sourceName": "国家生态系统观测研究网络",
+      "category": "山河"
+    },
+    {
+      "id": "jiayu",
+      "stageId": "jiayuguan",
+      "title": "嘉峪关",
+      "child": "一座大大的关城，像站在路旁的守望者。",
+      "parent": "嘉峪关始建于1372年，属于明代长城体系。它与汉代玉门关、阳关并非同一时代的设施。",
+      "icon": "gate",
+      "source": "https://www.jyg.gov.cn/wlj/xwdt/bmdt/gzdt/art/2022/art_62ed11ca1488431e86691c9a57d5fd76.html",
+      "sourceName": "嘉峪关市文化和旅游局",
+      "category": "古迹"
+    },
+    {
+      "id": "fourcounties",
+      "stageId": "jiayuguan",
+      "title": "河西四郡",
+      "child": "武威、张掖、酒泉、敦煌，四个名字一起记在故事里。",
+      "parent": "汉代河西四郡是武威、张掖、酒泉、敦煌。嘉峪关和瓜州是本游戏另选的旅行站点，不属于“河西四郡”这组历史名称。",
+      "icon": "map",
+      "source": "https://www.gswbj.gov.cn/a/2026/03/12/27706.html",
+      "sourceName": "甘肃省文博会",
+      "category": "丝路"
+    },
+    {
+      "id": "yulin",
+      "stageId": "guazhou",
+      "title": "榆林窟",
+      "child": "瓜州也有珍贵的石窟，里面藏着漂亮的壁画。",
+      "parent": "榆林窟位于今瓜州县，是敦煌石窟艺术体系的重要组成部分。游戏不把它画作莫高窟内部的一个洞窟。",
+      "icon": "lotus",
+      "source": "https://www.dha.ac.cn/jggk/jgsz/zssydw/ylkwwbhyjs.htm",
+      "sourceName": "敦煌研究院",
+      "category": "古迹"
+    },
+    {
+      "id": "music",
+      "stageId": "guazhou",
+      "title": "壁画里的乐声",
+      "child": "壁画上的人们，有的弹琵琶，有的奏乐、跳舞。",
+      "parent": "榆林窟第25窟南壁画有乐队与舞蹈，可见琵琶、笙、横笛等乐器。小游戏使用原创合成五声音阶，不声称复原某首古代乐曲。",
+      "icon": "pipa",
+      "source": "https://www.dha.ac.cn/info/1426/3635.htm",
+      "sourceName": "敦煌研究院",
+      "category": "艺术"
+    },
+    {
+      "id": "shule",
+      "stageId": "guazhou",
+      "title": "疏勒河",
+      "child": "河流绕过干燥的土地，照顾西边的绿洲。",
+      "parent": "疏勒河水系与河西走廊西部绿洲密切相关，流域包含瓜州等地区。自然水系不应与地图上装饰性的水纹一一对应。",
+      "icon": "water",
+      "source": "https://www.waterconserving.cn/activity/detail/1689",
+      "sourceName": "节水中国·疏勒河灌区报道",
+      "category": "山河"
+    },
+    {
+      "id": "mogao",
+      "stageId": "dunhuang",
+      "title": "莫高窟",
+      "child": "石窟里的壁画和雕塑，讲了很久很久的故事。",
+      "parent": "莫高窟是世界文化遗产，保存了跨度广泛的石窟、壁画和彩塑。实地参观应遵守文物保护规定，不触摸壁画。",
+      "icon": "lotus",
+      "source": "https://whc.unesco.org/en/list/440/",
+      "sourceName": "联合国教科文组织",
+      "category": "古迹"
+    },
+    {
+      "id": "pigments",
+      "stageId": "dunhuang",
+      "title": "敦煌的颜色",
+      "child": "石青、石绿、朱砂……古人把颜色留在了墙上。",
+      "parent": "敦煌壁画使用多种矿物等颜料。游戏色板只是屏幕上的艺术近似，不代表每个洞窟都使用相同配方。真正的颜料和文物由专业人员处理。",
+      "icon": "palette",
+      "source": "https://www.dha.ac.cn/info/1021/7486.htm",
+      "sourceName": "敦煌研究院",
+      "category": "艺术"
+    },
+    {
+      "id": "flying",
+      "stageId": "dunhuang",
+      "title": "飞天与飘带",
+      "child": "长长的飘带，让壁画中的飞天像风一样轻盈。",
+      "parent": "飞天是佛教艺术中的形象，属于艺术与信仰表达，不是历史上真的会飞的人。游戏的小鹿和壁画为原创想象。",
+      "icon": "cloud",
+      "source": "https://www.dha.ac.cn/info/1425/3569.htm",
+      "sourceName": "敦煌研究院",
+      "category": "艺术"
+    },
+    {
+      "id": "crescent",
+      "stageId": "dunhuang",
+      "title": "鸣沙山与月牙泉",
+      "child": "金色沙丘旁，有一弯像月牙一样的泉水。",
+      "parent": "鸣沙山、月牙泉是敦煌代表性的自然景观。艺术长卷把景观并置，真实的泉水和莫高窟并不紧挨着。",
+      "icon": "water",
+      "source": "https://www.mct.gov.cn/whzx/qgwhxxlb/gs/202111/t20211129_929394.htm",
+      "sourceName": "文化和旅游部",
+      "category": "山河"
+    },
+    {
+      "id": "yumen",
+      "stageId": "dunhuang",
+      "title": "玉门关",
+      "child": "古老的关口，见过很多来来往往的旅人。",
+      "parent": "汉代玉门关遗址是“丝绸之路：长安—天山廊道的路网”世界遗产组成部分。不同历史时期玉门关的关址发生变化。",
+      "icon": "gate",
+      "source": "https://whc.unesco.org/en/list/1442/maps/",
+      "sourceName": "联合国教科文组织",
+      "category": "古迹"
+    },
+    {
+      "id": "yangguan",
+      "stageId": "dunhuang",
+      "title": "阳关",
+      "child": "阳关的名字，也留在了古人的送别诗里。",
+      "parent": "阳关是汉代设置的重要关隘，位于敦煌附近，和玉门关共同关联西行交通。今日所见遗址不能等同于完整复原的汉代建筑。",
+      "icon": "gate",
+      "source": "https://www.neac.gov.cn/seac/c103391/202302/1160537.shtml",
+      "sourceName": "国家民族事务委员会",
+      "category": "古迹"
+    },
+    {
+      "id": "xuanquan",
+      "stageId": "dunhuang",
+      "title": "悬泉置",
+      "child": "传信的人和使者，能在古代的驿站歇歇脚。",
+      "parent": "悬泉置是汉代官方驿置，承担传递文书、接待使者等职责，出土了大量简牍。它不是人人可随意入住的现代旅馆，也是丝路世界遗产组成点。",
+      "icon": "scroll",
+      "source": "https://www.neac.gov.cn/seac/c103391/202302/1161310.shtml",
+      "sourceName": "国家民族事务委员会",
+      "category": "古迹"
+    },
+    {
+      "id": "library",
+      "stageId": "dunhuang",
+      "title": "藏经洞的书卷",
+      "child": "小小的洞窟，保存了许多旧时光里的文字。",
+      "parent": "1900年发现的藏经洞保存了丰富的古代文献和艺术品。文书记录了宗教之外的社会生活、语言和文学。",
+      "icon": "book",
+      "source": "https://www.dha.ac.cn/info/1425/3608.htm",
+      "sourceName": "敦煌研究院",
+      "category": "古迹"
+    },
+    {
+      "id": "protect",
+      "stageId": "dunhuang",
+      "title": "一起保护文物",
+      "child": "用眼睛欣赏，用心记住。珍贵的壁画，我们不伸手摸。",
+      "parent": "敦煌研究院长期开展石窟保护、考古与研究。数字游戏中的拼图和填色是艺术启蒙，不能作为真实文物修复教学。",
+      "icon": "leaf",
+      "source": "https://www.dha.ac.cn/jggk/jgjj.htm",
+      "sourceName": "敦煌研究院",
+      "category": "艺术"
+    },
+    {
+      "id": "horse",
+      "stageId": "wuwei",
+      "title": "铜奔马",
+      "child": "一匹铜做的小马，三个蹄子腾空，好像正跑得飞快！",
+      "parent": "铜奔马出土于武威雷台汉墓，现藏甘肃省博物馆。它以一个足部作为主要支撑，呈现奔跑的动势。所踏鸟类的名称有讨论，儿童层不指定鸟种。图标只表示艺术藏品，不是文物摹图。",
+      "icon": "treasure",
+      "source": "https://gansumuseum.com/",
+      "sourceName": "甘肃省博物馆",
+      "category": "艺术"
+    },
+    {
+      "id": "dafo",
+      "stageId": "zhangye",
+      "title": "张掖大佛寺",
+      "child": "老建筑和彩色塑像，留下了不同时代的手艺。",
+      "parent": "张掖大佛寺的西夏营建通常记为1098年，后代多次修缮。它帮助我们认识河西走廊多时代、多文化的艺术交流，不是莫高窟的一个洞窟。",
+      "icon": "lotus",
+      "source": "https://www.zhangye.gov.cn/dzdt/xqdt/gzq_2543/202606/t20260602_1549391.html",
+      "sourceName": "张掖市人民政府",
+      "category": "古迹"
+    },
+    {
+      "id": "suoyang",
+      "stageId": "guazhou",
+      "title": "锁阳城与古水渠",
+      "child": "古城旁留下的水渠，让我们想起从前绿洲里的生活。",
+      "parent": "锁阳城遗址包含城址和古灌溉等遗存，是丝路世界遗产的组成部分。现存遗迹与游戏里的艺术建筑不能当作完全一致的复原。",
+      "icon": "gate",
+      "source": "https://iidos.cn/SilkRoadHeritage/info.aspx?itemid=8956&lcid=19",
+      "sourceName": "中国丝绸博物馆·丝路文物数据库",
+      "category": "古迹"
+    },
+    {
+      "id": "bricklife",
+      "stageId": "jiayuguan",
+      "title": "画像砖里的生活",
+      "child": "小小的砖上，也画着种田、放牧和出门的故事。",
+      "parent": "嘉峪关新城魏晋墓群的画像砖记录了农耕、放牧和出行等内容。游戏鼓励欣赏图像，不进入墓葬或带走文物。",
+      "icon": "palette",
+      "source": "https://www.jyg.gov.cn/wlj/xwdt/bmdt/gzdt/art/2022/art_62ed11ca1488431e86691c9a57d5fd76.html",
+      "sourceName": "嘉峪关市文化和旅游局",
+      "category": "艺术"
+    },
+    {
+      "id": "rabbits",
+      "stageId": "dunhuang",
+      "title": "三兔共耳的巧思",
+      "child": "三只小兔转圈跑，共用的耳朵藏着小巧思。",
+      "parent": "莫高窟第407窟藻井可见三兔共耳图案。它可以帮助孩子观察旋转、共享形状与纹样设计；这里的图标并非壁画的精确摹本。",
+      "icon": "lotus",
+      "source": "https://www.dha.ac.cn/info/1425/3569.htm",
+      "sourceName": "敦煌研究院",
+      "category": "艺术"
+    },
+    {
+      "id": "digital",
+      "stageId": "dunhuang",
+      "title": "数字敦煌",
+      "child": "把古老的画仔细记录下来，也让远方的人看见。",
+      "parent": "“数字敦煌”资源库于2016年上线，提供洞窟高清图像和全景漫游。本游戏使用原创插画，与该官方资源库没有隶属关系，也不复制其受许可限制的图像。",
+      "icon": "book",
+      "source": "https://www.dha.ac.cn/info/1194/2351.htm",
+      "sourceName": "敦煌研究院",
+      "category": "艺术"
+    }
+  ],
+  "historyEvents": [
+    {
+      "id": "zhangqian",
+      "chronology": 1,
+      "era": "西汉",
+      "date": "公元前2世纪",
+      "title": "张骞走向远方",
+      "child": "张骞向西出发，让人们更了解远方的世界。",
+      "parent": "张骞出使西域促进了中原与西域的交流。中国国家博物馆采用首次出使为公元前138年的表述；游戏只要求认识先后，不考日期。",
+      "icon": "camel",
+      "source": "https://www.chnmuseum.cn/Portals/0/web/zt/20170916qhwm/pc/index.html"
+    },
+    {
+      "id": "huoqubing",
+      "chronology": 1.5,
+      "era": "西汉",
+      "date": "公元前121年",
+      "title": "霍去病与河西通道",
+      "child": "霍去病曾在河西作战。后来，这里的道路和城镇发生了变化。",
+      "parent": "公元前121年，霍去病率汉军在河西击败匈奴，改变了当地的政治格局。此后汉朝逐步设置四郡、经营交通。理解这段历史也要珍惜和平，不把古代政权间的战争等同于今天不同民族之间的关系。",
+      "icon": "gate",
+      "source": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33076.shtml"
+    },
+    {
+      "id": "counties",
+      "chronology": 2,
+      "era": "西汉",
+      "date": "西汉时期",
+      "title": "河西四郡连起来",
+      "child": "武威、张掖、酒泉、敦煌，成为路上的重要地方。",
+      "parent": "汉代逐步设置河西四郡，为交通、屯田和交流提供支撑。具体设郡时间存在学术讨论，本游戏不把单一精确年份作为结论。",
+      "icon": "map",
+      "source": "https://www.gswbj.gov.cn/a/2026/03/12/27706.html"
+    },
+    {
+      "id": "mogao",
+      "chronology": 3,
+      "era": "十六国时期",
+      "date": "传统记载：366年",
+      "title": "莫高窟的故事开始",
+      "child": "一代代人开凿石窟，把故事和愿望画在墙上。",
+      "parent": "莫高窟传统始建纪年为366年，通常与乐僔开窟的记载相联系。这是传统记载，不等于现存最早洞窟的确切年代。",
+      "icon": "lotus",
+      "source": "https://www.dha.ac.cn/info/1425/3659.htm"
+    },
+    {
+      "id": "xuanzang",
+      "chronology": 4,
+      "era": "唐代",
+      "date": "7世纪",
+      "title": "玄奘向西求学",
+      "child": "玄奘经过河西走廊，继续向西寻找知识。",
+      "parent": "玄奘西行途经凉州、瓜州。出发年份在不同材料中有差异，故儿童界面使用“唐代、7世纪”。唐代玉门关与今日常见的汉代关址不能直接等同。",
+      "icon": "scroll",
+      "source": "https://mzzjt.fujian.gov.cn/ztbd/fjlt/fjzs/201809/t20180904_4469159.htm"
+    },
+    {
+      "id": "guiyi",
+      "chronology": 4.25,
+      "era": "晚唐",
+      "date": "848—851年",
+      "title": "张议潮与归义军",
+      "child": "张议潮带领人们重建与唐朝的联系。敦煌又留下了许多新的壁画。",
+      "parent": "848年张议潮在沙州起事，851年唐朝设归义军并授其节度使。归义军时期莫高窟、榆林窟继续营建，留下丰富艺术。这里把政治事件与艺术发展分层说明，不把所有壁画归于一人或同一年。",
+      "icon": "palette",
+      "source": "https://www.dhafund.cn/cms/whhy/493.html"
+    },
+    {
+      "id": "dafo",
+      "chronology": 4.5,
+      "era": "西夏",
+      "date": "1098年",
+      "title": "张掖留下新的艺术",
+      "child": "人们在张掖建起寺院，留下建筑和彩色塑像。",
+      "parent": "张掖大佛寺的西夏营建通常记为1098年。这里以现存寺院的西夏历史为线索，欣赏建筑、塑像与多时代文化交流，不将宗教传说作为史实。",
+      "icon": "lotus",
+      "source": "https://www.zhangye.gov.cn/dzdt/xqdt/gzq_2543/202606/t20260602_1549391.html"
+    },
+    {
+      "id": "jiayuguan",
+      "chronology": 5,
+      "era": "明代",
+      "date": "1372年",
+      "title": "嘉峪关开始修建",
+      "child": "人们修建高大的关城，守望这条长长的通道。",
+      "parent": "嘉峪关始建于明洪武五年（1372年），是明长城的重要关隘。它比汉代丝路的早期历史晚得多。",
+      "icon": "gate",
+      "source": "https://www.jyg.gov.cn/wlj/xwdt/bmdt/gzdt/art/2022/art_62ed11ca1488431e86691c9a57d5fd76.html"
+    },
+    {
+      "id": "library",
+      "chronology": 6,
+      "era": "清末",
+      "date": "1900年",
+      "title": "藏经洞被发现",
+      "child": "一个小洞窟里，保存着许多很久以前的书卷。",
+      "parent": "1900年，王圆箓发现莫高窟藏经洞。洞内文书涉及宗教、文学、社会生活等多种内容；此后大量文物流散世界各地。游戏强调珍惜与保护，不将流散美化为寻宝奖励。",
+      "icon": "book",
+      "source": "https://www.dha.ac.cn/info/1425/3608.htm"
+    },
+    {
+      "id": "research",
+      "chronology": 7,
+      "era": "近现代",
+      "date": "1944年",
+      "title": "一起守护敦煌",
+      "child": "研究者和保护者来到这里，照顾珍贵的洞窟和壁画。",
+      "parent": "1944年国立敦煌艺术研究所成立，是敦煌研究院的前身。文物修复由专业人员进行，游戏中的拼图和涂色只针对原创数字画。",
+      "icon": "leaf",
+      "source": "https://www.dha.ac.cn/info/1006/2239.htm"
+    },
+    {
+      "id": "heritage",
+      "chronology": 8,
+      "era": "当代",
+      "date": "1987年",
+      "title": "世界一起珍惜",
+      "child": "莫高窟成为世界遗产。大家一起保护这份珍贵的礼物。",
+      "parent": "莫高窟于1987年列入联合国教科文组织《世界遗产名录》。",
+      "icon": "star",
+      "source": "https://whc.unesco.org/en/list/440/"
+    },
+    {
+      "id": "digital",
+      "chronology": 9,
+      "era": "当代",
+      "date": "2016年",
+      "title": "在屏幕上看敦煌",
+      "child": "人们把石窟仔细记录下来，让远方的朋友也能欣赏。",
+      "parent": "2016年5月1日，“数字敦煌”资源库正式上线，分享洞窟高清图像与全景漫游。这是数字化记录与传播，不等于用数字图像替代真实文物保护。",
+      "icon": "book",
+      "source": "https://www.dha.ac.cn/info/1194/2351.htm"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "wuwei",
+      "title": "第一声驼铃",
+      "subtitle": "一段旅行，从准备好开始",
+      "quality": "准备",
+      "bell": "驼铃风铃",
+      "color": "#ad6146",
+      "requiredGame": "pack",
+      "npc": {
+        "name": "沙枣奶奶",
+        "role": "商队的老朋友",
+        "icon": "camel"
+      },
+      "dialogue": [
+        "欧哟几，欢迎来到武威！我正要给远方的朋友送一卷漂亮的丝绸。",
+        "小骆驼还缺几样东西。出发前，我们先看看水井、彩旗和驼铃吧。",
+        "把水、粮食、丝绸和书卷装好，就能找回第一枚风铃。准备好，也是在照顾同行的朋友。"
+      ],
+      "question": "欧哟几想先照顾谁？",
+      "choices": [
+        {
+          "id": "water",
+          "label": "先给大家带上水",
+          "response": "欧哟几抱起水壶：“一路上，我们都要好好喝水！”"
+        },
+        {
+          "id": "friend",
+          "label": "先看看小骆驼",
+          "response": "欧哟几轻轻招手：“小骆驼，我们一起慢慢走。”"
+        }
+      ],
+      "closing": "叮铃！第一声从行囊里响起来。欧哟几发现，出发前的小准备，也能给伙伴大大的安心。",
+      "journal": "我帮商队准备了行囊。把朋友需要的东西带上，旅行就有了一个温暖的开始。",
+      "ambience": "晨光 · 驼铃与远处的风"
+    },
+    {
+      "id": "zhangye",
+      "title": "一滴水的旅行",
+      "subtitle": "让雪山的礼物，流进小小绿洲",
+      "quality": "照顾",
+      "bell": "清泉风铃",
+      "color": "#497b70",
+      "requiredGame": "water",
+      "npc": {
+        "name": "泉阿姨",
+        "role": "照顾田野的人",
+        "icon": "leaf"
+      },
+      "dialogue": [
+        "你听，水车在轻轻转。可是那边的小树，今天还没有喝到水。",
+        "水从远处的山里来，绕过田野，才走到这里。看看雪山、河边的小鸟和水车。",
+        "帮我把水渠接起来吧。每一滴水都值得好好照顾。"
+      ],
+      "question": "小树喝到水以后，你想做什么？",
+      "choices": [
+        {
+          "id": "tree",
+          "label": "陪小树站一会儿",
+          "response": "欧哟几蹲下来：“你慢慢长，我会记得你。”"
+        },
+        {
+          "id": "share",
+          "label": "请小鸟也来喝水",
+          "response": "欧哟几给小鸟留出一块安静的地方，水面晃出小小的光。"
+        }
+      ],
+      "closing": "清清的水流过田野，第二枚风铃亮了。原来，照顾一个小生命，也能让整片绿洲更热闹。",
+      "journal": "我接通了水渠，让小树喝到了水。雪山、河流和绿洲，原来一直在互相帮助。",
+      "ambience": "午后 · 水声、柔笛与小鸟"
+    },
+    {
+      "id": "jiuquan",
+      "title": "把友好装满篮子",
+      "subtitle": "在小集市，学会公平与分享",
+      "quality": "分享",
+      "bell": "葡萄风铃",
+      "color": "#ab7c40",
+      "requiredGame": "trade",
+      "npc": {
+        "name": "果果哥哥",
+        "role": "小集市的朋友",
+        "icon": "grape"
+      },
+      "dialogue": [
+        "欢迎来逛酒泉的小集市！每个篮子里，都装着远方带来的好东西。",
+        "先找找葡萄架、传信箱和小灯笼。人们交换的不只是货物，还有故事。",
+        "来帮小集市完成今天的游戏吧。认真看一看，让每一份分享都恰到好处。"
+      ],
+      "question": "如果只剩下一串甜葡萄，你会怎么做？",
+      "choices": [
+        {
+          "id": "half",
+          "label": "和朋友一起分享",
+          "response": "欧哟几把葡萄放在中间：“一起吃，故事也可以一起听。”"
+        },
+        {
+          "id": "ask",
+          "label": "先问谁需要它",
+          "response": "欧哟几认真问了一圈，把葡萄递给了走得最远的朋友。"
+        }
+      ],
+      "closing": "集市里的笑声，变成了第三枚风铃的声音。欧哟几的小篮子不一定装得最多，却装着许多新朋友。",
+      "journal": "我在小集市认识了朋友。交换时认真数一数，分享时先想一想别人。",
+      "ambience": "暖暮 · 木片、弹拨与轻快脚步"
+    },
+    {
+      "id": "jiayuguan",
+      "title": "小脚步，大关城",
+      "subtitle": "勇气，是愿意再试一步",
+      "quality": "勇气",
+      "bell": "关城风铃",
+      "color": "#9a6949",
+      "requiredGame": "route",
+      "npc": {
+        "name": "关城爷爷",
+        "role": "讲故事的守望者",
+        "icon": "gate"
+      },
+      "dialogue": [
+        "欧哟几，你看这座高高的关城。站在它下面，连大人也会觉得自己小小的。",
+        "不用一下走很远。先看看城砖、远处的山和拱门，再找找脚边的小路。",
+        "带着小商队一步一步走到关门吧。走错了，换一条路试试就好。"
+      ],
+      "question": "遇到走不通的小路，欧哟几会说什么？",
+      "choices": [
+        {
+          "id": "again",
+          "label": "我可以再试一次",
+          "response": "欧哟几拍拍小挎包：“我再看看，一定还有别的路。”"
+        },
+        {
+          "id": "together",
+          "label": "请朋友一起想办法",
+          "response": "欧哟几向鹿铃招手：“我们一起看，路就更清楚了。”"
+        }
+      ],
+      "closing": "夕阳照亮关门，第四枚风铃轻轻响起。欧哟几知道，勇敢不一定要跑得快，愿意再试一步就很了不起。",
+      "journal": "我带着商队穿过关城。遇到石头不用着急，停下来看看，再走下一步。",
+      "ambience": "夕照 · 低鼓、笛声与开阔的风"
+    },
+    {
+      "id": "guazhou",
+      "title": "听见花开的声音",
+      "subtitle": "安静一下，世界有自己的节拍",
+      "quality": "倾听",
+      "bell": "花雨风铃",
+      "color": "#527e89",
+      "requiredGame": "music",
+      "npc": {
+        "name": "琴琴姐姐",
+        "role": "画卷里的小乐师",
+        "icon": "pipa"
+      },
+      "dialogue": [
+        "这里是瓜州。河边的芦苇在摇，壁画上的乐师也好像在等我们。",
+        "找到琵琶、芦苇和石窟前的小花，听听它们在说什么。",
+        "花朵亮起来时，会排出一个小小的顺序。跟着它们弹一段，属于你自己的音乐。"
+      ],
+      "question": "开始演奏以前，你想先听什么？",
+      "choices": [
+        {
+          "id": "wind",
+          "label": "听一听风和芦苇",
+          "response": "欧哟几闭上眼睛，又睁开：“原来，安静也有声音。”"
+        },
+        {
+          "id": "friend",
+          "label": "听朋友先弹一段",
+          "response": "欧哟几认真点头，把朋友弹出的顺序记在心里。"
+        }
+      ],
+      "closing": "第五枚风铃和着花朵一起唱。欧哟几发现，先听见别人，才能把自己的声音轻轻放进去。",
+      "journal": "我跟着花朵奏了小曲。音乐里有自己的声音，也有认真倾听的空白。",
+      "ambience": "花影 · 轻拨琴弦与河岸清铃"
+    },
+    {
+      "id": "dunhuang",
+      "title": "月亮送来一支画笔",
+      "subtitle": "把一路的发现，画成新的故事",
+      "quality": "创造",
+      "bell": "月光风铃",
+      "color": "#436a83",
+      "requiredGame": "mural",
+      "npc": {
+        "name": "守画姐姐",
+        "role": "爱护壁画的朋友",
+        "icon": "palette"
+      },
+      "dialogue": [
+        "欢迎到敦煌，欧哟几。你一路带来的五种心意，已经把长卷照亮了大半。",
+        "看看月牙形的泉、莲花和星光。最后一枚风铃，藏在我们愿意创造的新故事里。",
+        "先拼好这幅原创小鹿画吧。真实的古壁画，我们用眼睛欣赏；新的画面，就用自己的想象来完成。"
+      ],
+      "question": "你想把什么画进自己的长卷？",
+      "choices": [
+        {
+          "id": "friends",
+          "label": "一路遇见的朋友",
+          "response": "欧哟几画下朋友们的笑脸，连小鸟和小树也有自己的位置。"
+        },
+        {
+          "id": "colors",
+          "label": "一路看见的颜色",
+          "response": "欧哟几把雪山的白、河水的青和沙丘的金，一点点放进画里。"
+        }
+      ],
+      "closing": "月光落在第六枚风铃上。欧哟几终于明白：画卷需要的，不只是颜色，还有一路认真生活的小小心意。",
+      "journal": "我拼好了一幅画，也想画出自己的故事。古老的艺术值得珍惜，新的想象值得开始。",
+      "ambience": "月夜 · 清钟、柔和气息与泉水"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "wuwei-well",
+      "stageId": "wuwei",
+      "name": "清凉的水井",
+      "icon": "water",
+      "x": 25,
+      "y": 58,
+      "effect": "water",
+      "text": "水面映出欧哟几的小脸，凉凉的风从井边吹来。",
+      "response": "欧哟几：先装好水，再慢慢出发！",
+      "fact": "oasis"
+    },
+    {
+      "id": "wuwei-camel",
+      "stageId": "wuwei",
+      "name": "叮铃的小骆驼",
+      "icon": "camel",
+      "x": 61,
+      "y": 70,
+      "effect": "note",
+      "text": "小骆驼轻轻摇头，脖子上的铃铛回答了一声。",
+      "response": "欧哟几：你好，小伙伴！我会照顾好行囊。",
+      "fact": "camel"
+    },
+    {
+      "id": "wuwei-ribbon",
+      "stageId": "wuwei",
+      "name": "会跳舞的彩旗",
+      "icon": "silk",
+      "x": 76,
+      "y": 39,
+      "effect": "spark",
+      "text": "风把彩旗托起来。细细的花纹，好像一串没有说完的故事。",
+      "response": "欧哟几：我也想织一条属于自己的彩带。",
+      "fact": "silk"
+    },
+    {
+      "id": "zhangye-wheel",
+      "stageId": "zhangye",
+      "name": "慢慢转的水车",
+      "icon": "water",
+      "x": 29,
+      "y": 59,
+      "effect": "water",
+      "text": "哗啦，哗啦。小水滴轮流爬上水车，又回到河里。",
+      "response": "欧哟几：水也在走自己的旅行路线呢。",
+      "fact": "heihe"
+    },
+    {
+      "id": "zhangye-bird",
+      "stageId": "zhangye",
+      "name": "河边的小鸟",
+      "icon": "leaf",
+      "x": 65,
+      "y": 69,
+      "effect": "leaf",
+      "text": "小鸟停在河岸。欧哟几放轻脚步，它就安心地喝了一口水。",
+      "response": "欧哟几：我轻一点，就不会吓到你。",
+      "fact": "oasis"
+    },
+    {
+      "id": "zhangye-snow",
+      "stageId": "zhangye",
+      "name": "远方的雪山",
+      "icon": "mountain",
+      "x": 54,
+      "y": 26,
+      "effect": "spark",
+      "text": "远远的雪山顶上，一线阳光慢慢变成了金色。",
+      "response": "欧哟几：原来，绿洲的朋友住得那么远。",
+      "fact": "qilian"
+    },
+    {
+      "id": "jiuquan-grapes",
+      "stageId": "jiuquan",
+      "name": "甜甜的葡萄架",
+      "icon": "grape",
+      "x": 24,
+      "y": 44,
+      "effect": "leaf",
+      "text": "圆圆的葡萄挨在一起，像一群把故事凑着讲的小朋友。",
+      "response": "欧哟几：一串葡萄，也能分成好多份快乐。",
+      "fact": "grape"
+    },
+    {
+      "id": "jiuquan-letter",
+      "stageId": "jiuquan",
+      "name": "远方的信箱",
+      "icon": "scroll",
+      "x": 52,
+      "y": 63,
+      "effect": "spark",
+      "text": "信箱里装着画卷朋友的问候。每一卷，都要认真送到。",
+      "response": "欧哟几：如果见不到面，就把想念写下来。",
+      "fact": "xuanquan"
+    },
+    {
+      "id": "jiuquan-lantern",
+      "stageId": "jiuquan",
+      "name": "暖暖的小灯笼",
+      "icon": "sun",
+      "x": 77,
+      "y": 33,
+      "effect": "spark",
+      "text": "天色慢慢暗下来，小灯笼亮起柔软的光，照着回家的路。",
+      "response": "欧哟几：这盏灯，也在等它的朋友。",
+      "fact": "exchange"
+    },
+    {
+      "id": "jiayuguan-brick",
+      "stageId": "jiayuguan",
+      "name": "有故事的城砖",
+      "icon": "gate",
+      "x": 25,
+      "y": 66,
+      "effect": "spark",
+      "text": "一块块城砖排得整整齐齐。欧哟几只用眼睛看，不在上面刻画。",
+      "response": "欧哟几：你站在这里很久了，我会好好爱护你。",
+      "fact": "jiayu"
+    },
+    {
+      "id": "jiayuguan-horizon",
+      "stageId": "jiayuguan",
+      "name": "远山的轮廓",
+      "icon": "mountain",
+      "x": 75,
+      "y": 29,
+      "effect": "leaf",
+      "text": "山像安静的守望者。夕阳把它们的影子拉得长长的。",
+      "response": "欧哟几：我也不用跑很快，一步一步就好。",
+      "fact": "gobi"
+    },
+    {
+      "id": "jiayuguan-arch",
+      "stageId": "jiayuguan",
+      "name": "高高的拱门",
+      "icon": "gate",
+      "x": 49,
+      "y": 45,
+      "effect": "note",
+      "text": "欧哟几轻轻说“你好”，关门里传来一个软软的回声。",
+      "response": "欧哟几：原来，大关城也会回答我！",
+      "fact": "jiayu"
+    },
+    {
+      "id": "guazhou-pipa",
+      "stageId": "guazhou",
+      "name": "等待演奏的琵琶",
+      "icon": "pipa",
+      "x": 27,
+      "y": 61,
+      "effect": "note",
+      "text": "琴弦轻轻一响，像一滴水落在安静的心里。",
+      "response": "欧哟几：让我先听一听，再试一试。",
+      "fact": "music"
+    },
+    {
+      "id": "guazhou-reeds",
+      "stageId": "guazhou",
+      "name": "沙沙响的芦苇",
+      "icon": "leaf",
+      "x": 67,
+      "y": 69,
+      "effect": "leaf",
+      "text": "芦苇向左摇，再向右摇。风在河边悄悄打着拍子。",
+      "response": "欧哟几：你们也有自己的小乐队。",
+      "fact": "shule"
+    },
+    {
+      "id": "guazhou-caves",
+      "stageId": "guazhou",
+      "name": "石窟前的小花",
+      "icon": "lotus",
+      "x": 73,
+      "y": 38,
+      "effect": "spark",
+      "text": "石窟前的小花开了。欧哟几停下来，留给花和古迹一点安静。",
+      "response": "欧哟几：漂亮的东西，看看就已经很开心。",
+      "fact": "yulin"
+    },
+    {
+      "id": "dunhuang-lotus",
+      "stageId": "dunhuang",
+      "name": "月光里的莲花",
+      "icon": "lotus",
+      "x": 24,
+      "y": 66,
+      "effect": "spark",
+      "text": "莲花把月光接在花瓣上。每一片，都像等待颜色的小画纸。",
+      "response": "欧哟几：我想给你画一种新的颜色。",
+      "fact": "pigments"
+    },
+    {
+      "id": "dunhuang-moon",
+      "stageId": "dunhuang",
+      "name": "弯弯的月牙泉",
+      "icon": "water",
+      "x": 55,
+      "y": 58,
+      "effect": "water",
+      "text": "天上有月亮，地上也有一弯亮亮的水。欧哟几看得舍不得眨眼。",
+      "response": "欧哟几：像两个月亮在悄悄说话。",
+      "fact": "crescent"
+    },
+    {
+      "id": "dunhuang-stars",
+      "stageId": "dunhuang",
+      "name": "会眨眼的星星",
+      "icon": "star",
+      "x": 75,
+      "y": 24,
+      "effect": "spark",
+      "text": "几颗小星星连起来，好像一只飞过夜空的小鹿。这是欧哟几想出来的图案。",
+      "response": "欧哟几：我也可以给夜空讲一个故事。",
+      "fact": "flying"
+    }
+  ],
+  "letters": [
+    {
+      "id": "seeds",
+      "title": "会开花的问候",
+      "from": "wuwei",
+      "to": "zhangye",
+      "sender": "沙枣奶奶",
+      "recipient": "泉阿姨",
+      "request": "泉阿姨想在水渠旁种一小片花。请替我带一份能在土里发芽的礼物，好吗？",
+      "gift": "seeds",
+      "choices": [
+        {
+          "id": "seeds",
+          "name": "一包种子",
+          "icon": "leaf"
+        },
+        {
+          "id": "bell",
+          "name": "一个铃铛",
+          "icon": "bell"
+        },
+        {
+          "id": "book",
+          "name": "一卷故事",
+          "icon": "scroll"
+        }
+      ],
+      "packed": "欧哟几把种子放进小挎包：“我会把这个春天，送到张掖！”",
+      "reply": "泉阿姨把种子轻轻埋进土里：“谢谢你们！这盆小花送给营地，记得和它打招呼。”",
+      "reward": "flowers"
+    },
+    {
+      "id": "melody",
+      "title": "会唱歌的问候",
+      "from": "jiuquan",
+      "to": "guazhou",
+      "sender": "果果哥哥",
+      "recipient": "琴琴姐姐",
+      "request": "琴琴姐姐想为新曲子添一声叮铃。哪件小礼物，轻轻摇一摇就会唱歌？",
+      "gift": "bell",
+      "choices": [
+        {
+          "id": "grapes",
+          "name": "一串葡萄",
+          "icon": "grape"
+        },
+        {
+          "id": "bell",
+          "name": "一个铃铛",
+          "icon": "bell"
+        },
+        {
+          "id": "silk",
+          "name": "一条彩带",
+          "icon": "silk"
+        }
+      ],
+      "packed": "叮铃！欧哟几轻轻托住铃铛：“路上的风，也可以一起唱。”",
+      "reply": "琴琴姐姐听见清亮的一声：“这首曲子有你的位置！把这串风铃带回营地吧。”",
+      "reward": "chimes"
+    },
+    {
+      "id": "colors",
+      "title": "月光里的颜色",
+      "from": "jiayuguan",
+      "to": "dunhuang",
+      "sender": "关城爷爷",
+      "recipient": "守画姐姐",
+      "request": "守画姐姐想为原创小灯笼添上颜色。替我带一样画画会用到的东西，送到敦煌吧。",
+      "gift": "pigments",
+      "choices": [
+        {
+          "id": "water",
+          "name": "一壶清水",
+          "icon": "water"
+        },
+        {
+          "id": "book",
+          "name": "一卷故事",
+          "icon": "scroll"
+        },
+        {
+          "id": "pigments",
+          "name": "一盒矿彩",
+          "icon": "palette"
+        }
+      ],
+      "packed": "欧哟几把矿彩盒放稳：“我会把夕阳的颜色，也讲给姐姐听。”",
+      "reply": "守画姐姐画好一盏新的小灯：“灯里装着一路的问候。让它照亮你和鹿铃的营地。”",
+      "reward": "lantern"
+    }
+  ],
+  "decorations": [
+    {
+      "id": "cushion",
+      "name": "软软的坐垫",
+      "hint": "歇一歇小脚丫",
+      "icon": "silk"
+    },
+    {
+      "id": "tea",
+      "name": "暖暖的茶具",
+      "hint": "请朋友坐一坐",
+      "icon": "water"
+    },
+    {
+      "id": "flag",
+      "name": "迎风的小彩旗",
+      "hint": "让风带走问候",
+      "icon": "silk"
+    },
+    {
+      "id": "books",
+      "name": "一摞小书卷",
+      "hint": "慢慢听个故事",
+      "icon": "scroll"
+    },
+    {
+      "id": "plant",
+      "name": "绿绿的小树",
+      "hint": "营地也有绿洲",
+      "icon": "leaf"
+    },
+    {
+      "id": "stone",
+      "name": "弯弯的月亮石",
+      "hint": "收藏一个月亮",
+      "icon": "moon"
+    },
+    {
+      "id": "flowers",
+      "name": "泉阿姨的小花",
+      "hint": "送达张掖的问候",
+      "icon": "lotus"
+    },
+    {
+      "id": "chimes",
+      "name": "琴琴姐姐的风铃",
+      "hint": "送达瓜州的问候",
+      "icon": "bell"
+    },
+    {
+      "id": "lantern",
+      "name": "守画姐姐的彩灯",
+      "hint": "送达敦煌的问候",
+      "icon": "sun"
+    }
+  ],
+  "campNotes": [
+    {
+      "value": 0,
+      "name": "小叶",
+      "icon": "leaf",
+      "color": "#66866d"
+    },
+    {
+      "value": 1,
+      "name": "水滴",
+      "icon": "water",
+      "color": "#598b9c"
+    },
+    {
+      "value": 2,
+      "name": "小花",
+      "icon": "lotus",
+      "color": "#b46c71"
+    },
+    {
+      "value": 3,
+      "name": "太阳",
+      "icon": "sun",
+      "color": "#b48c42"
+    },
+    {
+      "value": 4,
+      "name": "星星",
+      "icon": "star",
+      "color": "#8c78a0"
+    },
+    {
+      "value": -1,
+      "name": "歇一拍",
+      "icon": "moon",
+      "color": "#8c8b7a"
+    }
+  ],
+  "campVoices": [
+    {
+      "id": "bell",
+      "name": "清铃",
+      "icon": "bell"
+    },
+    {
+      "id": "wood",
+      "name": "木片",
+      "icon": "scroll"
+    },
+    {
+      "id": "lute",
+      "name": "琴弦",
+      "icon": "pipa"
+    }
+  ],
+  "campSpots": [
+    {
+      "id": "one",
+      "name": "左边前排",
+      "x": 28,
+      "y": 58
+    },
+    {
+      "id": "two",
+      "name": "中间前排",
+      "x": 50,
+      "y": 58
+    },
+    {
+      "id": "three",
+      "name": "右边前排",
+      "x": 72,
+      "y": 58
+    },
+    {
+      "id": "four",
+      "name": "左边后排",
+      "x": 28,
+      "y": 80
+    },
+    {
+      "id": "five",
+      "name": "中间后排",
+      "x": 50,
+      "y": 80
+    },
+    {
+      "id": "six",
+      "name": "右边后排",
+      "x": 72,
+      "y": 80
+    }
+  ],
+  "defaultCampNotes": [
+    0,
+    2,
+    3,
+    2,
+    1,
+    -1,
+    0,
+    -1
+  ],
+  "pigmentColors": [
+    "#c36849",
+    "#2f7c79",
+    "#315d83",
+    "#d7ad58",
+    "#97aa79",
+    "#f8edcf"
+  ],
+  "images": {
+    "map": "res://assets/images/map.jpg",
+    "boy": "res://assets/images/boy.png",
+    "deer": "res://assets/images/deer.png",
+    "wuwei": "res://assets/images/wuwei.jpg",
+    "zhangye": "res://assets/images/zhangye.jpg",
+    "jiuquan": "res://assets/images/jiuquan.jpg",
+    "jiayuguan": "res://assets/images/jiayuguan.jpg",
+    "guazhou": "res://assets/images/guazhou.jpg",
+    "dunhuang": "res://assets/images/dunhuang.jpg",
+    "mural": "res://assets/images/mural.jpg",
+    "camp-night": "res://assets/images/camp-night.jpg",
+    "camp-dawn": "res://assets/images/camp-dawn.jpg",
+    "ending": "res://assets/images/ending.jpg"
+  },
+  "voices": {
+    "welcome": "res://assets/voice/welcome.mp3",
+    "ending": "res://assets/voice/ending.mp3",
+    "story-wuwei-0": "res://assets/voice/story-wuwei-0.mp3",
+    "story-wuwei-1": "res://assets/voice/story-wuwei-1.mp3",
+    "story-wuwei-2": "res://assets/voice/story-wuwei-2.mp3",
+    "question-wuwei": "res://assets/voice/question-wuwei.mp3",
+    "closing-wuwei": "res://assets/voice/closing-wuwei.mp3",
+    "choice-wuwei-water": "res://assets/voice/choice-wuwei-water.mp3",
+    "choice-wuwei-friend": "res://assets/voice/choice-wuwei-friend.mp3",
+    "story-zhangye-0": "res://assets/voice/story-zhangye-0.mp3",
+    "story-zhangye-1": "res://assets/voice/story-zhangye-1.mp3",
+    "story-zhangye-2": "res://assets/voice/story-zhangye-2.mp3",
+    "question-zhangye": "res://assets/voice/question-zhangye.mp3",
+    "closing-zhangye": "res://assets/voice/closing-zhangye.mp3",
+    "choice-zhangye-tree": "res://assets/voice/choice-zhangye-tree.mp3",
+    "choice-zhangye-share": "res://assets/voice/choice-zhangye-share.mp3",
+    "story-jiuquan-0": "res://assets/voice/story-jiuquan-0.mp3",
+    "story-jiuquan-1": "res://assets/voice/story-jiuquan-1.mp3",
+    "story-jiuquan-2": "res://assets/voice/story-jiuquan-2.mp3",
+    "question-jiuquan": "res://assets/voice/question-jiuquan.mp3",
+    "closing-jiuquan": "res://assets/voice/closing-jiuquan.mp3",
+    "choice-jiuquan-half": "res://assets/voice/choice-jiuquan-half.mp3",
+    "choice-jiuquan-ask": "res://assets/voice/choice-jiuquan-ask.mp3",
+    "story-jiayuguan-0": "res://assets/voice/story-jiayuguan-0.mp3",
+    "story-jiayuguan-1": "res://assets/voice/story-jiayuguan-1.mp3",
+    "story-jiayuguan-2": "res://assets/voice/story-jiayuguan-2.mp3",
+    "question-jiayuguan": "res://assets/voice/question-jiayuguan.mp3",
+    "closing-jiayuguan": "res://assets/voice/closing-jiayuguan.mp3",
+    "choice-jiayuguan-again": "res://assets/voice/choice-jiayuguan-again.mp3",
+    "choice-jiayuguan-together": "res://assets/voice/choice-jiayuguan-together.mp3",
+    "story-guazhou-0": "res://assets/voice/story-guazhou-0.mp3",
+    "story-guazhou-1": "res://assets/voice/story-guazhou-1.mp3",
+    "story-guazhou-2": "res://assets/voice/story-guazhou-2.mp3",
+    "question-guazhou": "res://assets/voice/question-guazhou.mp3",
+    "closing-guazhou": "res://assets/voice/closing-guazhou.mp3",
+    "choice-guazhou-wind": "res://assets/voice/choice-guazhou-wind.mp3",
+    "choice-guazhou-friend": "res://assets/voice/choice-guazhou-friend.mp3",
+    "story-dunhuang-0": "res://assets/voice/story-dunhuang-0.mp3",
+    "story-dunhuang-1": "res://assets/voice/story-dunhuang-1.mp3",
+    "story-dunhuang-2": "res://assets/voice/story-dunhuang-2.mp3",
+    "question-dunhuang": "res://assets/voice/question-dunhuang.mp3",
+    "closing-dunhuang": "res://assets/voice/closing-dunhuang.mp3",
+    "choice-dunhuang-friends": "res://assets/voice/choice-dunhuang-friends.mp3",
+    "choice-dunhuang-colors": "res://assets/voice/choice-dunhuang-colors.mp3",
+    "encounter-wuwei-well": "res://assets/voice/encounter-wuwei-well.mp3",
+    "encounter-wuwei-camel": "res://assets/voice/encounter-wuwei-camel.mp3",
+    "encounter-wuwei-ribbon": "res://assets/voice/encounter-wuwei-ribbon.mp3",
+    "encounter-zhangye-wheel": "res://assets/voice/encounter-zhangye-wheel.mp3",
+    "encounter-zhangye-bird": "res://assets/voice/encounter-zhangye-bird.mp3",
+    "encounter-zhangye-snow": "res://assets/voice/encounter-zhangye-snow.mp3",
+    "encounter-jiuquan-grapes": "res://assets/voice/encounter-jiuquan-grapes.mp3",
+    "encounter-jiuquan-letter": "res://assets/voice/encounter-jiuquan-letter.mp3",
+    "encounter-jiuquan-lantern": "res://assets/voice/encounter-jiuquan-lantern.mp3",
+    "encounter-jiayuguan-brick": "res://assets/voice/encounter-jiayuguan-brick.mp3",
+    "encounter-jiayuguan-horizon": "res://assets/voice/encounter-jiayuguan-horizon.mp3",
+    "encounter-jiayuguan-arch": "res://assets/voice/encounter-jiayuguan-arch.mp3",
+    "encounter-guazhou-pipa": "res://assets/voice/encounter-guazhou-pipa.mp3",
+    "encounter-guazhou-reeds": "res://assets/voice/encounter-guazhou-reeds.mp3",
+    "encounter-guazhou-caves": "res://assets/voice/encounter-guazhou-caves.mp3",
+    "encounter-dunhuang-lotus": "res://assets/voice/encounter-dunhuang-lotus.mp3",
+    "encounter-dunhuang-moon": "res://assets/voice/encounter-dunhuang-moon.mp3",
+    "encounter-dunhuang-stars": "res://assets/voice/encounter-dunhuang-stars.mp3",
+    "game-pack": "res://assets/voice/game-pack.mp3",
+    "game-water": "res://assets/voice/game-water.mp3",
+    "game-memory": "res://assets/voice/game-memory.mp3",
+    "game-route": "res://assets/voice/game-route.mp3",
+    "game-music": "res://assets/voice/game-music.mp3",
+    "game-mural": "res://assets/voice/game-mural.mp3",
+    "game-paint": "res://assets/voice/game-paint.mp3",
+    "game-history": "res://assets/voice/game-history.mp3",
+    "game-weave": "res://assets/voice/game-weave.mp3",
+    "game-trade": "res://assets/voice/game-trade.mp3",
+    "game-stars": "res://assets/voice/game-stars.mp3",
+    "fact-corridor": "res://assets/voice/fact-corridor.mp3",
+    "fact-qilian": "res://assets/voice/fact-qilian.mp3",
+    "fact-oasis": "res://assets/voice/fact-oasis.mp3",
+    "fact-silk": "res://assets/voice/fact-silk.mp3",
+    "fact-camel": "res://assets/voice/fact-camel.mp3",
+    "fact-shiyang": "res://assets/voice/fact-shiyang.mp3",
+    "fact-heihe": "res://assets/voice/fact-heihe.mp3",
+    "fact-danxia": "res://assets/voice/fact-danxia.mp3",
+    "fact-exchange": "res://assets/voice/fact-exchange.mp3",
+    "fact-grape": "res://assets/voice/fact-grape.mp3",
+    "fact-gobi": "res://assets/voice/fact-gobi.mp3",
+    "fact-jiayu": "res://assets/voice/fact-jiayu.mp3",
+    "fact-fourcounties": "res://assets/voice/fact-fourcounties.mp3",
+    "fact-yulin": "res://assets/voice/fact-yulin.mp3",
+    "fact-music": "res://assets/voice/fact-music.mp3",
+    "fact-shule": "res://assets/voice/fact-shule.mp3",
+    "fact-mogao": "res://assets/voice/fact-mogao.mp3",
+    "fact-pigments": "res://assets/voice/fact-pigments.mp3",
+    "fact-flying": "res://assets/voice/fact-flying.mp3",
+    "fact-crescent": "res://assets/voice/fact-crescent.mp3",
+    "fact-yumen": "res://assets/voice/fact-yumen.mp3",
+    "fact-yangguan": "res://assets/voice/fact-yangguan.mp3",
+    "fact-xuanquan": "res://assets/voice/fact-xuanquan.mp3",
+    "fact-library": "res://assets/voice/fact-library.mp3",
+    "fact-protect": "res://assets/voice/fact-protect.mp3",
+    "fact-horse": "res://assets/voice/fact-horse.mp3",
+    "fact-dafo": "res://assets/voice/fact-dafo.mp3",
+    "fact-suoyang": "res://assets/voice/fact-suoyang.mp3",
+    "fact-bricklife": "res://assets/voice/fact-bricklife.mp3",
+    "fact-rabbits": "res://assets/voice/fact-rabbits.mp3",
+    "fact-digital": "res://assets/voice/fact-digital.mp3",
+    "history-zhangqian": "res://assets/voice/history-zhangqian.mp3",
+    "history-huoqubing": "res://assets/voice/history-huoqubing.mp3",
+    "history-counties": "res://assets/voice/history-counties.mp3",
+    "history-mogao": "res://assets/voice/history-mogao.mp3",
+    "history-xuanzang": "res://assets/voice/history-xuanzang.mp3",
+    "history-guiyi": "res://assets/voice/history-guiyi.mp3",
+    "history-dafo": "res://assets/voice/history-dafo.mp3",
+    "history-jiayuguan": "res://assets/voice/history-jiayuguan.mp3",
+    "history-library": "res://assets/voice/history-library.mp3",
+    "history-research": "res://assets/voice/history-research.mp3",
+    "history-heritage": "res://assets/voice/history-heritage.mp3",
+    "history-digital": "res://assets/voice/history-digital.mp3",
+    "letter-seeds": "res://assets/voice/letter-seeds.mp3",
+    "reply-seeds": "res://assets/voice/reply-seeds.mp3",
+    "letter-melody": "res://assets/voice/letter-melody.mp3",
+    "reply-melody": "res://assets/voice/reply-melody.mp3",
+    "letter-colors": "res://assets/voice/letter-colors.mp3",
+    "reply-colors": "res://assets/voice/reply-colors.mp3"
+  },
+  "voiceLines": [
+    {
+      "id": "welcome",
+      "text": "你好呀！我叫欧哟几，今年六岁。和我还有鹿铃一起，去河西走廊找回六枚温暖的风铃吧。"
+    },
+    {
+      "id": "ending",
+      "text": "六枚风铃一起唱起来啦！准备、照顾、分享、勇气、倾听和创造，都藏在你小小的行囊里。故事还有很远，我们一起慢慢走。"
+    },
+    {
+      "id": "story-wuwei-0",
+      "text": "欧哟几，欢迎来到武威！我正要给远方的朋友送一卷漂亮的丝绸。"
+    },
+    {
+      "id": "story-wuwei-1",
+      "text": "小骆驼还缺几样东西。出发前，我们先看看水井、彩旗和驼铃吧。"
+    },
+    {
+      "id": "story-wuwei-2",
+      "text": "把水、粮食、丝绸和书卷装好，就能找回第一枚风铃。准备好，也是在照顾同行的朋友。"
+    },
+    {
+      "id": "question-wuwei",
+      "text": "欧哟几想先照顾谁？"
+    },
+    {
+      "id": "closing-wuwei",
+      "text": "叮铃！第一声从行囊里响起来。欧哟几发现，出发前的小准备，也能给伙伴大大的安心。"
+    },
+    {
+      "id": "choice-wuwei-water",
+      "text": "欧哟几抱起水壶：“一路上，我们都要好好喝水！”"
+    },
+    {
+      "id": "choice-wuwei-friend",
+      "text": "欧哟几轻轻招手：“小骆驼，我们一起慢慢走。”"
+    },
+    {
+      "id": "story-zhangye-0",
+      "text": "你听，水车在轻轻转。可是那边的小树，今天还没有喝到水。"
+    },
+    {
+      "id": "story-zhangye-1",
+      "text": "水从远处的山里来，绕过田野，才走到这里。看看雪山、河边的小鸟和水车。"
+    },
+    {
+      "id": "story-zhangye-2",
+      "text": "帮我把水渠接起来吧。每一滴水都值得好好照顾。"
+    },
+    {
+      "id": "question-zhangye",
+      "text": "小树喝到水以后，你想做什么？"
+    },
+    {
+      "id": "closing-zhangye",
+      "text": "清清的水流过田野，第二枚风铃亮了。原来，照顾一个小生命，也能让整片绿洲更热闹。"
+    },
+    {
+      "id": "choice-zhangye-tree",
+      "text": "欧哟几蹲下来：“你慢慢长，我会记得你。”"
+    },
+    {
+      "id": "choice-zhangye-share",
+      "text": "欧哟几给小鸟留出一块安静的地方，水面晃出小小的光。"
+    },
+    {
+      "id": "story-jiuquan-0",
+      "text": "欢迎来逛酒泉的小集市！每个篮子里，都装着远方带来的好东西。"
+    },
+    {
+      "id": "story-jiuquan-1",
+      "text": "先找找葡萄架、传信箱和小灯笼。人们交换的不只是货物，还有故事。"
+    },
+    {
+      "id": "story-jiuquan-2",
+      "text": "来帮小集市完成今天的游戏吧。认真看一看，让每一份分享都恰到好处。"
+    },
+    {
+      "id": "question-jiuquan",
+      "text": "如果只剩下一串甜葡萄，你会怎么做？"
+    },
+    {
+      "id": "closing-jiuquan",
+      "text": "集市里的笑声，变成了第三枚风铃的声音。欧哟几的小篮子不一定装得最多，却装着许多新朋友。"
+    },
+    {
+      "id": "choice-jiuquan-half",
+      "text": "欧哟几把葡萄放在中间：“一起吃，故事也可以一起听。”"
+    },
+    {
+      "id": "choice-jiuquan-ask",
+      "text": "欧哟几认真问了一圈，把葡萄递给了走得最远的朋友。"
+    },
+    {
+      "id": "story-jiayuguan-0",
+      "text": "欧哟几，你看这座高高的关城。站在它下面，连大人也会觉得自己小小的。"
+    },
+    {
+      "id": "story-jiayuguan-1",
+      "text": "不用一下走很远。先看看城砖、远处的山和拱门，再找找脚边的小路。"
+    },
+    {
+      "id": "story-jiayuguan-2",
+      "text": "带着小商队一步一步走到关门吧。走错了，换一条路试试就好。"
+    },
+    {
+      "id": "question-jiayuguan",
+      "text": "遇到走不通的小路，欧哟几会说什么？"
+    },
+    {
+      "id": "closing-jiayuguan",
+      "text": "夕阳照亮关门，第四枚风铃轻轻响起。欧哟几知道，勇敢不一定要跑得快，愿意再试一步就很了不起。"
+    },
+    {
+      "id": "choice-jiayuguan-again",
+      "text": "欧哟几拍拍小挎包：“我再看看，一定还有别的路。”"
+    },
+    {
+      "id": "choice-jiayuguan-together",
+      "text": "欧哟几向鹿铃招手：“我们一起看，路就更清楚了。”"
+    },
+    {
+      "id": "story-guazhou-0",
+      "text": "这里是瓜州。河边的芦苇在摇，壁画上的乐师也好像在等我们。"
+    },
+    {
+      "id": "story-guazhou-1",
+      "text": "找到琵琶、芦苇和石窟前的小花，听听它们在说什么。"
+    },
+    {
+      "id": "story-guazhou-2",
+      "text": "花朵亮起来时，会排出一个小小的顺序。跟着它们弹一段，属于你自己的音乐。"
+    },
+    {
+      "id": "question-guazhou",
+      "text": "开始演奏以前，你想先听什么？"
+    },
+    {
+      "id": "closing-guazhou",
+      "text": "第五枚风铃和着花朵一起唱。欧哟几发现，先听见别人，才能把自己的声音轻轻放进去。"
+    },
+    {
+      "id": "choice-guazhou-wind",
+      "text": "欧哟几闭上眼睛，又睁开：“原来，安静也有声音。”"
+    },
+    {
+      "id": "choice-guazhou-friend",
+      "text": "欧哟几认真点头，把朋友弹出的顺序记在心里。"
+    },
+    {
+      "id": "story-dunhuang-0",
+      "text": "欢迎到敦煌，欧哟几。你一路带来的五种心意，已经把长卷照亮了大半。"
+    },
+    {
+      "id": "story-dunhuang-1",
+      "text": "看看月牙形的泉、莲花和星光。最后一枚风铃，藏在我们愿意创造的新故事里。"
+    },
+    {
+      "id": "story-dunhuang-2",
+      "text": "先拼好这幅原创小鹿画吧。真实的古壁画，我们用眼睛欣赏；新的画面，就用自己的想象来完成。"
+    },
+    {
+      "id": "question-dunhuang",
+      "text": "你想把什么画进自己的长卷？"
+    },
+    {
+      "id": "closing-dunhuang",
+      "text": "月光落在第六枚风铃上。欧哟几终于明白：画卷需要的，不只是颜色，还有一路认真生活的小小心意。"
+    },
+    {
+      "id": "choice-dunhuang-friends",
+      "text": "欧哟几画下朋友们的笑脸，连小鸟和小树也有自己的位置。"
+    },
+    {
+      "id": "choice-dunhuang-colors",
+      "text": "欧哟几把雪山的白、河水的青和沙丘的金，一点点放进画里。"
+    },
+    {
+      "id": "encounter-wuwei-well",
+      "text": "水面映出欧哟几的小脸，凉凉的风从井边吹来。欧哟几：先装好水，再慢慢出发！"
+    },
+    {
+      "id": "encounter-wuwei-camel",
+      "text": "小骆驼轻轻摇头，脖子上的铃铛回答了一声。欧哟几：你好，小伙伴！我会照顾好行囊。"
+    },
+    {
+      "id": "encounter-wuwei-ribbon",
+      "text": "风把彩旗托起来。细细的花纹，好像一串没有说完的故事。欧哟几：我也想织一条属于自己的彩带。"
+    },
+    {
+      "id": "encounter-zhangye-wheel",
+      "text": "哗啦，哗啦。小水滴轮流爬上水车，又回到河里。欧哟几：水也在走自己的旅行路线呢。"
+    },
+    {
+      "id": "encounter-zhangye-bird",
+      "text": "小鸟停在河岸。欧哟几放轻脚步，它就安心地喝了一口水。欧哟几：我轻一点，就不会吓到你。"
+    },
+    {
+      "id": "encounter-zhangye-snow",
+      "text": "远远的雪山顶上，一线阳光慢慢变成了金色。欧哟几：原来，绿洲的朋友住得那么远。"
+    },
+    {
+      "id": "encounter-jiuquan-grapes",
+      "text": "圆圆的葡萄挨在一起，像一群把故事凑着讲的小朋友。欧哟几：一串葡萄，也能分成好多份快乐。"
+    },
+    {
+      "id": "encounter-jiuquan-letter",
+      "text": "信箱里装着画卷朋友的问候。每一卷，都要认真送到。欧哟几：如果见不到面，就把想念写下来。"
+    },
+    {
+      "id": "encounter-jiuquan-lantern",
+      "text": "天色慢慢暗下来，小灯笼亮起柔软的光，照着回家的路。欧哟几：这盏灯，也在等它的朋友。"
+    },
+    {
+      "id": "encounter-jiayuguan-brick",
+      "text": "一块块城砖排得整整齐齐。欧哟几只用眼睛看，不在上面刻画。欧哟几：你站在这里很久了，我会好好爱护你。"
+    },
+    {
+      "id": "encounter-jiayuguan-horizon",
+      "text": "山像安静的守望者。夕阳把它们的影子拉得长长的。欧哟几：我也不用跑很快，一步一步就好。"
+    },
+    {
+      "id": "encounter-jiayuguan-arch",
+      "text": "欧哟几轻轻说“你好”，关门里传来一个软软的回声。欧哟几：原来，大关城也会回答我！"
+    },
+    {
+      "id": "encounter-guazhou-pipa",
+      "text": "琴弦轻轻一响，像一滴水落在安静的心里。欧哟几：让我先听一听，再试一试。"
+    },
+    {
+      "id": "encounter-guazhou-reeds",
+      "text": "芦苇向左摇，再向右摇。风在河边悄悄打着拍子。欧哟几：你们也有自己的小乐队。"
+    },
+    {
+      "id": "encounter-guazhou-caves",
+      "text": "石窟前的小花开了。欧哟几停下来，留给花和古迹一点安静。欧哟几：漂亮的东西，看看就已经很开心。"
+    },
+    {
+      "id": "encounter-dunhuang-lotus",
+      "text": "莲花把月光接在花瓣上。每一片，都像等待颜色的小画纸。欧哟几：我想给你画一种新的颜色。"
+    },
+    {
+      "id": "encounter-dunhuang-moon",
+      "text": "天上有月亮，地上也有一弯亮亮的水。欧哟几看得舍不得眨眼。欧哟几：像两个月亮在悄悄说话。"
+    },
+    {
+      "id": "encounter-dunhuang-stars",
+      "text": "几颗小星星连起来，好像一只飞过夜空的小鹿。这是欧哟几想出来的图案。欧哟几：我也可以给夜空讲一个故事。"
+    },
+    {
+      "id": "game-pack",
+      "text": "小小商队出发。点一点，把水、粮食、丝绸和书卷装进行囊。"
+    },
+    {
+      "id": "game-water",
+      "text": "绿洲喝水啦。点水渠，让它转一转。把左边的水接到右下角的小树。"
+    },
+    {
+      "id": "game-memory",
+      "text": "丝路寻宝。一次翻两张，找到一模一样的宝物。"
+    },
+    {
+      "id": "game-route",
+      "text": "穿过大关城。点骆驼旁边的小路，去找右下角的关门。"
+    },
+    {
+      "id": "game-music",
+      "text": "花雨小乐队。先看花朵亮起的顺序，再按同样的顺序点花朵。"
+    },
+    {
+      "id": "game-mural",
+      "text": "壁画里的小鹿。先选一块画片，再点上面同样的位置。"
+    },
+    {
+      "id": "game-paint",
+      "text": "我的矿彩莲花。先选一种颜色，再点花瓣。每一片都可以有自己的颜色。"
+    },
+    {
+      "id": "game-history",
+      "text": "时光排排队。看看上面的故事线，把下面四张卡片按先后顺序放好。"
+    },
+    {
+      "id": "game-weave",
+      "text": "织一条彩带。看看彩带小样，选一种彩线，再点同样位置的空格。"
+    },
+    {
+      "id": "game-trade",
+      "text": "公平小集市。数数左边有几颗点，给右边放小砝码，让两边一样重。"
+    },
+    {
+      "id": "game-stars",
+      "text": "星光连连看。从第一颗开始，跟着数字和闪光，把星星一颗一颗连起来。"
+    },
+    {
+      "id": "fact-corridor",
+      "text": "为什么叫河西走廊。黄河的西边，有一条夹在山间的长长通道，好像大地的走廊。"
+    },
+    {
+      "id": "fact-qilian",
+      "text": "祁连雪山。高高的雪山，把珍贵的水送给山下的绿洲。"
+    },
+    {
+      "id": "fact-oasis",
+      "text": "绿洲。有了水，沙漠和戈壁之间，也能长出树木和庄稼。"
+    },
+    {
+      "id": "fact-silk",
+      "text": "轻轻的丝绸。柔软的丝绸，曾跟着商队走向很远的地方。"
+    },
+    {
+      "id": "fact-camel",
+      "text": "双峰骆驼。宽宽的脚掌和两个驼峰，帮助骆驼适应干旱的旅途。"
+    },
+    {
+      "id": "fact-shiyang",
+      "text": "石羊河。武威的小树和田野，也有自己的河流朋友。"
+    },
+    {
+      "id": "fact-heihe",
+      "text": "黑河与张掖绿洲。河水流过张掖，让田野变得绿油油。"
+    },
+    {
+      "id": "fact-danxia",
+      "text": "彩色丘陵。张掖有彩色的山丘，好像大地叠起的彩带。"
+    },
+    {
+      "id": "fact-exchange",
+      "text": "相遇的丝绸之路。人们带着货物来，也带来了音乐、故事和新想法。"
+    },
+    {
+      "id": "fact-grape",
+      "text": "葡萄也能变花纹。葡萄还能变成漂亮的花纹，绕在古人的铜镜上。"
+    },
+    {
+      "id": "fact-gobi",
+      "text": "戈壁与沙漠。有的地面铺着小石头，有的地方是软软的沙丘。"
+    },
+    {
+      "id": "fact-jiayu",
+      "text": "嘉峪关。一座大大的关城，像站在路旁的守望者。"
+    },
+    {
+      "id": "fact-fourcounties",
+      "text": "河西四郡。武威、张掖、酒泉、敦煌，四个名字一起记在故事里。"
+    },
+    {
+      "id": "fact-yulin",
+      "text": "榆林窟。瓜州也有珍贵的石窟，里面藏着漂亮的壁画。"
+    },
+    {
+      "id": "fact-music",
+      "text": "壁画里的乐声。壁画上的人们，有的弹琵琶，有的奏乐、跳舞。"
+    },
+    {
+      "id": "fact-shule",
+      "text": "疏勒河。河流绕过干燥的土地，照顾西边的绿洲。"
+    },
+    {
+      "id": "fact-mogao",
+      "text": "莫高窟。石窟里的壁画和雕塑，讲了很久很久的故事。"
+    },
+    {
+      "id": "fact-pigments",
+      "text": "敦煌的颜色。石青、石绿、朱砂……古人把颜色留在了墙上。"
+    },
+    {
+      "id": "fact-flying",
+      "text": "飞天与飘带。长长的飘带，让壁画中的飞天像风一样轻盈。"
+    },
+    {
+      "id": "fact-crescent",
+      "text": "鸣沙山与月牙泉。金色沙丘旁，有一弯像月牙一样的泉水。"
+    },
+    {
+      "id": "fact-yumen",
+      "text": "玉门关。古老的关口，见过很多来来往往的旅人。"
+    },
+    {
+      "id": "fact-yangguan",
+      "text": "阳关。阳关的名字，也留在了古人的送别诗里。"
+    },
+    {
+      "id": "fact-xuanquan",
+      "text": "悬泉置。传信的人和使者，能在古代的驿站歇歇脚。"
+    },
+    {
+      "id": "fact-library",
+      "text": "藏经洞的书卷。小小的洞窟，保存了许多旧时光里的文字。"
+    },
+    {
+      "id": "fact-protect",
+      "text": "一起保护文物。用眼睛欣赏，用心记住。珍贵的壁画，我们不伸手摸。"
+    },
+    {
+      "id": "fact-horse",
+      "text": "铜奔马。一匹铜做的小马，三个蹄子腾空，好像正跑得飞快！"
+    },
+    {
+      "id": "fact-dafo",
+      "text": "张掖大佛寺。老建筑和彩色塑像，留下了不同时代的手艺。"
+    },
+    {
+      "id": "fact-suoyang",
+      "text": "锁阳城与古水渠。古城旁留下的水渠，让我们想起从前绿洲里的生活。"
+    },
+    {
+      "id": "fact-bricklife",
+      "text": "画像砖里的生活。小小的砖上，也画着种田、放牧和出门的故事。"
+    },
+    {
+      "id": "fact-rabbits",
+      "text": "三兔共耳的巧思。三只小兔转圈跑，共用的耳朵藏着小巧思。"
+    },
+    {
+      "id": "fact-digital",
+      "text": "数字敦煌。把古老的画仔细记录下来，也让远方的人看见。"
+    },
+    {
+      "id": "history-zhangqian",
+      "text": "西汉。张骞走向远方。张骞向西出发，让人们更了解远方的世界。"
+    },
+    {
+      "id": "history-huoqubing",
+      "text": "西汉。霍去病与河西通道。霍去病曾在河西作战。后来，这里的道路和城镇发生了变化。"
+    },
+    {
+      "id": "history-counties",
+      "text": "西汉。河西四郡连起来。武威、张掖、酒泉、敦煌，成为路上的重要地方。"
+    },
+    {
+      "id": "history-mogao",
+      "text": "十六国时期。莫高窟的故事开始。一代代人开凿石窟，把故事和愿望画在墙上。"
+    },
+    {
+      "id": "history-xuanzang",
+      "text": "唐代。玄奘向西求学。玄奘经过河西走廊，继续向西寻找知识。"
+    },
+    {
+      "id": "history-guiyi",
+      "text": "晚唐。张议潮与归义军。张议潮带领人们重建与唐朝的联系。敦煌又留下了许多新的壁画。"
+    },
+    {
+      "id": "history-dafo",
+      "text": "西夏。张掖留下新的艺术。人们在张掖建起寺院，留下建筑和彩色塑像。"
+    },
+    {
+      "id": "history-jiayuguan",
+      "text": "明代。嘉峪关开始修建。人们修建高大的关城，守望这条长长的通道。"
+    },
+    {
+      "id": "history-library",
+      "text": "清末。藏经洞被发现。一个小洞窟里，保存着许多很久以前的书卷。"
+    },
+    {
+      "id": "history-research",
+      "text": "近现代。一起守护敦煌。研究者和保护者来到这里，照顾珍贵的洞窟和壁画。"
+    },
+    {
+      "id": "history-heritage",
+      "text": "当代。世界一起珍惜。莫高窟成为世界遗产。大家一起保护这份珍贵的礼物。"
+    },
+    {
+      "id": "history-digital",
+      "text": "当代。在屏幕上看敦煌。人们把石窟仔细记录下来，让远方的朋友也能欣赏。"
+    },
+    {
+      "id": "letter-seeds",
+      "text": "沙枣奶奶写给泉阿姨。泉阿姨想在水渠旁种一小片花。请替我带一份能在土里发芽的礼物，好吗？"
+    },
+    {
+      "id": "reply-seeds",
+      "text": "泉阿姨把种子轻轻埋进土里：“谢谢你们！这盆小花送给营地，记得和它打招呼。”"
+    },
+    {
+      "id": "letter-melody",
+      "text": "果果哥哥写给琴琴姐姐。琴琴姐姐想为新曲子添一声叮铃。哪件小礼物，轻轻摇一摇就会唱歌？"
+    },
+    {
+      "id": "reply-melody",
+      "text": "琴琴姐姐听见清亮的一声：“这首曲子有你的位置！把这串风铃带回营地吧。”"
+    },
+    {
+      "id": "letter-colors",
+      "text": "关城爷爷写给守画姐姐。守画姐姐想为原创小灯笼添上颜色。替我带一样画画会用到的东西，送到敦煌吧。"
+    },
+    {
+      "id": "reply-colors",
+      "text": "守画姐姐画好一盏新的小灯：“灯里装着一路的问候。让它照亮你和鹿铃的营地。”"
+    }
+  ]
+}

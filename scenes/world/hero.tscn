@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/hero.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/characters/boy_actor.gd" id="Boy"]
+[sub_resource type="CircleShape2D" id="Circle"]
+radius = 16.0
+
+[node name="Hero" type="CharacterBody2D"]
+script = ExtResource("1")
+collision_layer = 1
+collision_mask = 0
+
+[node name="Rig" type="Node2D" parent="."]
+script = ExtResource("Boy")
+
+[node name="Feet" type="CollisionShape2D" parent="."]
+shape = SubResource("Circle")

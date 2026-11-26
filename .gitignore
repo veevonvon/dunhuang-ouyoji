@@ -1,0 +1,9 @@
+.godot/
+.toolchain/
+builds/
+test-results/
+*.keystore
+*.log
+export_credentials.cfg
+__pycache__/
+*.pyc

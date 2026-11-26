@@ -1,0 +1,960 @@
+{
+  "schemaVersion": 1,
+  "source": "原版 TypeScript / Canvas 工程的已优化离线素材，逐字节迁移，未重新编辑",
+  "counts": {
+    "images": 13,
+    "music": 8,
+    "notes": 15,
+    "voice": 122
+  },
+  "files": [
+    {
+      "source": "../public/canvas/assets/images/map.jpg",
+      "path": "assets/images/map.jpg",
+      "bytes": 209848,
+      "sha256": "4d33bd07a4692604ae527fbf1db25dd6767eec259bc0b3186ac2fbaa4e3aa7e3"
+    },
+    {
+      "source": "../public/canvas/assets/images/boy.png",
+      "path": "assets/images/boy.png",
+      "bytes": 173327,
+      "sha256": "18a3525ab07b1d8f244a25ee32a034b415c3cfc4b4e22b62d65450071f4e119e"
+    },
+    {
+      "source": "../public/canvas/assets/images/deer.png",
+      "path": "assets/images/deer.png",
+      "bytes": 206539,
+      "sha256": "cce8efb7aba59e98140c9ef913b72b35466d3bb2e429a74187a801a2e07d6ac2"
+    },
+    {
+      "source": "../public/canvas/assets/images/wuwei.jpg",
+      "path": "assets/images/wuwei.jpg",
+      "bytes": 315825,
+      "sha256": "459dd8cf6cd8bd25f78eaa8d5fdb985ee55c4f2c2dc93c71211f300d0d503e60"
+    },
+    {
+      "source": "../public/canvas/world/images/zhangye.jpg",
+      "path": "assets/images/zhangye.jpg",
+      "bytes": 425694,
+      "sha256": "87fbf9ae999a6f4446423063d4b08a5c0a035daae09acf9903b6a2ade49d6036"
+    },
+    {
+      "source": "../public/canvas/world/images/jiuquan.jpg",
+      "path": "assets/images/jiuquan.jpg",
+      "bytes": 350409,
+      "sha256": "622fb8e14da7b97fcf8d1576ed05d99cc46fb7195843910d3ed3e0d5f4fae09c"
+    },
+    {
+      "source": "../public/canvas/world/images/jiayuguan.jpg",
+      "path": "assets/images/jiayuguan.jpg",
+      "bytes": 329330,
+      "sha256": "21e814e1e247b708b028dec15fe1dc2609307e21343f8afdf34a45f29ace4a49"
+    },
+    {
+      "source": "../public/canvas/world/images/guazhou.jpg",
+      "path": "assets/images/guazhou.jpg",
+      "bytes": 407461,
+      "sha256": "13cf04156f77f3cc95246f7b3bfa32d1b1b9246cae7ac3fa9908950a2bba217b"
+    },
+    {
+      "source": "../public/canvas/world/images/dunhuang.jpg",
+      "path": "assets/images/dunhuang.jpg",
+      "bytes": 344771,
+      "sha256": "43fbaec9e97cfb056ea4bc5608e5198c6cb48afe0209976f543d19a96c1d073a"
+    },
+    {
+      "source": "../public/canvas/world/images/mural.jpg",
+      "path": "assets/images/mural.jpg",
+      "bytes": 313679,
+      "sha256": "afff23a45efd2f39e067739fd7bbdf9196a6e7766a7eab0630a538ce4fd1fc4e"
+    },
+    {
+      "source": "../public/canvas/world/images/camp-night.jpg",
+      "path": "assets/images/camp-night.jpg",
+      "bytes": 203133,
+      "sha256": "b1c476f9bd88e7ca1f344aa64b5bb6319f43b64d6aad18b50ca659ca59e3c1e9"
+    },
+    {
+      "source": "../public/canvas/world/images/camp-dawn.jpg",
+      "path": "assets/images/camp-dawn.jpg",
+      "bytes": 179660,
+      "sha256": "87405818882cd2dc8ec7b693c6a0244a151f513242fc9c24e404895bf0cf0734"
+    },
+    {
+      "source": "../public/canvas/world/images/ending.jpg",
+      "path": "assets/images/ending.jpg",
+      "bytes": 378239,
+      "sha256": "0c12aba2b4da75366c85956a4703125955b1246ead97ab3f8a2b1e9b0a461b5b"
+    },
+    {
+      "source": "../public/canvas/assets/audio/map.mp3",
+      "path": "assets/music/map.mp3",
+      "bytes": 360847,
+      "sha256": "0beb5841ba70752b47fc81c62b95a1e895c3fd963c637211d9d1b5a9213c62ae"
+    },
+    {
+      "source": "../public/canvas/assets/audio/wuwei.mp3",
+      "path": "assets/music/wuwei.mp3",
+      "bytes": 320723,
+      "sha256": "7714629a881072e7c984faf8ba9e71d663b6e70172a5e7f1bf5615da8f72f877"
+    },
+    {
+      "source": "../public/canvas/world/audio/zhangye.mp3",
+      "path": "assets/music/zhangye.mp3",
+      "bytes": 384670,
+      "sha256": "09f021b314cbe8b65d22c727fcca51b33d359ddce4f43021e2947e9dda50eeac"
+    },
+    {
+      "source": "../public/canvas/world/audio/jiuquan.mp3",
+      "path": "assets/music/jiuquan.mp3",
+      "bytes": 304109,
+      "sha256": "fbf769ad4bc52450a2d90de7b931fee226839a98247fab7d186983c8e9e875a4"
+    },
+    {
+      "source": "../public/canvas/world/audio/jiayuguan.mp3",
+      "path": "assets/music/jiayuguan.mp3",
+      "bytes": 360847,
+      "sha256": "58e7210e4951c4700c5aa8fd985a277ee290bed6a6b1dc81c45e65073151f005"
+    },
+    {
+      "source": "../public/canvas/world/audio/guazhou.mp3",
+      "path": "assets/music/guazhou.mp3",
+      "bytes": 320723,
+      "sha256": "063b55fa61ac4b648e96c859286c82cbd96873c8a51678a3e6a0bd2679464d54"
+    },
+    {
+      "source": "../public/canvas/world/audio/dunhuang.mp3",
+      "path": "assets/music/dunhuang.mp3",
+      "bytes": 412256,
+      "sha256": "bfb312424435774683ce6aa3c6d24c6366b43029d839f1c98dc06175fa87ffc2"
+    },
+    {
+      "source": "../public/canvas/world/audio/ending.mp3",
+      "path": "assets/music/ending.mp3",
+      "bytes": 443916,
+      "sha256": "b3c8138835c7be12abfeaeea3d1393307c69f98ae3ddbf6333a09dc48a0a6934"
+    },
+    {
+      "source": "../public/canvas/assets/voice/welcome.mp3",
+      "path": "assets/voice/welcome.mp3",
+      "bytes": 53228,
+      "sha256": "b4e1636d9e3936a17a2ac27af42c4939055731eadf5f938590404ebde6140ef3"
+    },
+    {
+      "source": "../public/canvas/world/voice/ending.mp3",
+      "path": "assets/voice/ending.mp3",
+      "bytes": 77852,
+      "sha256": "a1dd32d1d1232e82cdc5c21e19660ce4f616084db80feda5bb56fcebaefc4c42"
+    },
+    {
+      "source": "../public/canvas/assets/voice/story-wuwei-0.mp3",
+      "path": "assets/voice/story-wuwei-0.mp3",
+      "bytes": 37964,
+      "sha256": "38112abbdaaae23555cfa7324a07ef412ce71940f9659378ac74b3e4399c3065"
+    },
+    {
+      "source": "../public/canvas/assets/voice/story-wuwei-1.mp3",
+      "path": "assets/voice/story-wuwei-1.mp3",
+      "bytes": 42284,
+      "sha256": "f3032eb1af6e6faea23fb0975319705c28d222b290f4c80a74645783d23b9af7"
+    },
+    {
+      "source": "../public/canvas/assets/voice/story-wuwei-2.mp3",
+      "path": "assets/voice/story-wuwei-2.mp3",
+      "bytes": 56972,
+      "sha256": "e55824d4261dccc083805f87b025aaaddfbdd45fae14b88a52cafe9f4df948d4"
+    },
+    {
+      "source": "../public/canvas/assets/voice/question-wuwei.mp3",
+      "path": "assets/voice/question-wuwei.mp3",
+      "bytes": 12332,
+      "sha256": "d7faa1176bce4b8325df58f184b063d570e8593eb1ef6048d61ce677874ea545"
+    },
+    {
+      "source": "../public/canvas/assets/voice/closing-wuwei.mp3",
+      "path": "assets/voice/closing-wuwei.mp3",
+      "bytes": 53516,
+      "sha256": "66efea99f2d9507a31bc01aabe71728c6f1aa2a82c9203f882a04d6823a70339"
+    },
+    {
+      "source": "../public/canvas/assets/voice/choice-wuwei-water.mp3",
+      "path": "assets/voice/choice-wuwei-water.mp3",
+      "bytes": 30188,
+      "sha256": "7dac8a126a3e9ff87da5ca8ad11c80fb497dd111730abf2db447f1bef7dd10ec"
+    },
+    {
+      "source": "../public/canvas/assets/voice/choice-wuwei-friend.mp3",
+      "path": "assets/voice/choice-wuwei-friend.mp3",
+      "bytes": 28604,
+      "sha256": "efce53bf22c7dfd549dca4783e53c4bb641dccb350cf7bbe4e28c5368513be11"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-zhangye-0.mp3",
+      "path": "assets/voice/story-zhangye-0.mp3",
+      "bytes": 39260,
+      "sha256": "75367ba398d0df57d4fedd590e37c9b53dde8280ee88432e4a69c00be0f0a8b1"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-zhangye-1.mp3",
+      "path": "assets/voice/story-zhangye-1.mp3",
+      "bytes": 49196,
+      "sha256": "491ebce6e458ef9ab167366212f39fb6188690d87152cba55ce54ac8aa2ad59e"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-zhangye-2.mp3",
+      "path": "assets/voice/story-zhangye-2.mp3",
+      "bytes": 28460,
+      "sha256": "922847e8f19574009f373ca2f53374e17887702f4989ccc5a7e7540e240ad347"
+    },
+    {
+      "source": "../public/canvas/world/voice/question-zhangye.mp3",
+      "path": "assets/voice/question-zhangye.mp3",
+      "bytes": 19100,
+      "sha256": "c5c89c56fcfa64084fb5d9316c74caa8847a7cb138520737702f6d28b7816516"
+    },
+    {
+      "source": "../public/canvas/world/voice/closing-zhangye.mp3",
+      "path": "assets/voice/closing-zhangye.mp3",
+      "bytes": 52940,
+      "sha256": "47768b7190b0335a33f55284d68d8234305020177ddacebc0d57800382f6267e"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-zhangye-tree.mp3",
+      "path": "assets/voice/choice-zhangye-tree.mp3",
+      "bytes": 25148,
+      "sha256": "6c3cbd488929941bd97257f25d3c948327abd4147cb066b351ef1d5996b64d26"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-zhangye-share.mp3",
+      "path": "assets/voice/choice-zhangye-share.mp3",
+      "bytes": 34220,
+      "sha256": "18af3c38d6a6d0356eed0ac3d82417a8467b634ee7c043ae3681553cce8cfbbe"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-jiuquan-0.mp3",
+      "path": "assets/voice/story-jiuquan-0.mp3",
+      "bytes": 37676,
+      "sha256": "325356ed106c0a9c10db67aa30cffee3ca5cd66dec56ca2085dfe79180af9a79"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-jiuquan-1.mp3",
+      "path": "assets/voice/story-jiuquan-1.mp3",
+      "bytes": 42860,
+      "sha256": "c0613fd02e356a550e0551b95085f2c86fbde08eca6dbef2ba3caa6147159da5"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-jiuquan-2.mp3",
+      "path": "assets/voice/story-jiuquan-2.mp3",
+      "bytes": 43868,
+      "sha256": "fc930be4bb1a222662ffb90a7c777416f98ced6a443ecc4ddac2664f6653ad01"
+    },
+    {
+      "source": "../public/canvas/world/voice/question-jiuquan.mp3",
+      "path": "assets/voice/question-jiuquan.mp3",
+      "bytes": 23276,
+      "sha256": "6831a38c0b7857e42ecefbd4e762541069ad6c1e59b5665727c9330838d3eb40"
+    },
+    {
+      "source": "../public/canvas/world/voice/closing-jiuquan.mp3",
+      "path": "assets/voice/closing-jiuquan.mp3",
+      "bytes": 55244,
+      "sha256": "5d360474ea79dc5cb2761e22f4ea43de325309c9bb0edc12596de182fe781f91"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-jiuquan-half.mp3",
+      "path": "assets/voice/choice-jiuquan-half.mp3",
+      "bytes": 34220,
+      "sha256": "1b779027dc7f440072403f0216ec04a0ddb220973bbe301cb73cb5d5189b2c75"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-jiuquan-ask.mp3",
+      "path": "assets/voice/choice-jiuquan-ask.mp3",
+      "bytes": 30620,
+      "sha256": "0b7fc57008d8fcc94b58d8fdc6bd5a4f2da38086d0916d17814a1526f0e2d9b2"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-jiayuguan-0.mp3",
+      "path": "assets/voice/story-jiayuguan-0.mp3",
+      "bytes": 45452,
+      "sha256": "ea33ea00a2494712dd690e9cf64335be506d77ea67e3dc4224386a00e72af5d8"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-jiayuguan-1.mp3",
+      "path": "assets/voice/story-jiayuguan-1.mp3",
+      "bytes": 44012,
+      "sha256": "c324a6d54b13539ea972e56a24de0937181e8be09bb41dda0da09102884267ff"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-jiayuguan-2.mp3",
+      "path": "assets/voice/story-jiayuguan-2.mp3",
+      "bytes": 37820,
+      "sha256": "bef26bafeff1df21b67036a5fda5252b9290fe2b73e04f1dc4030d9cc2805997"
+    },
+    {
+      "source": "../public/canvas/world/voice/question-jiayuguan.mp3",
+      "path": "assets/voice/question-jiayuguan.mp3",
+      "bytes": 21260,
+      "sha256": "613b041dccaa2a892a09711bee26f9af97edd4625dbd6cd411566c8315ffd818"
+    },
+    {
+      "source": "../public/canvas/world/voice/closing-jiayuguan.mp3",
+      "path": "assets/voice/closing-jiayuguan.mp3",
+      "bytes": 61724,
+      "sha256": "8124ae2db1d7003efcff0f579bf1928e8915a3b86d5dd5eff7f626f915966e23"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-jiayuguan-again.mp3",
+      "path": "assets/voice/choice-jiayuguan-again.mp3",
+      "bytes": 31628,
+      "sha256": "5e40962784f5e8b8f8f1107052bb2344d0d89b3a68cd638e2ba8788437a2ddc2"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-jiayuguan-together.mp3",
+      "path": "assets/voice/choice-jiayuguan-together.mp3",
+      "bytes": 30044,
+      "sha256": "0803f2714a019d6a2993104e05b0f1d64252424dfd375f54ae1898799b79a010"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-guazhou-0.mp3",
+      "path": "assets/voice/story-guazhou-0.mp3",
+      "bytes": 36236,
+      "sha256": "537fc189cee1206aee6c93157894feb6913b91f12cb930683ec243921ca2d78d"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-guazhou-1.mp3",
+      "path": "assets/voice/story-guazhou-1.mp3",
+      "bytes": 32924,
+      "sha256": "abcec696a848ddbc9daab959483d2d56c296a30957f2156ed87d2067b210ce2d"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-guazhou-2.mp3",
+      "path": "assets/voice/story-guazhou-2.mp3",
+      "bytes": 45020,
+      "sha256": "86b29ac745e800bc4b2a259abacaa4b62a916e779a1755750f6edea107e6b459"
+    },
+    {
+      "source": "../public/canvas/world/voice/question-guazhou.mp3",
+      "path": "assets/voice/question-guazhou.mp3",
+      "bytes": 19676,
+      "sha256": "d7ecb1398c8fe0657eb71ff725be4765969702a99ff4b37d36a9520ea5d5f777"
+    },
+    {
+      "source": "../public/canvas/world/voice/closing-guazhou.mp3",
+      "path": "assets/voice/closing-guazhou.mp3",
+      "bytes": 53660,
+      "sha256": "d8ff274d83818947d635789d4fef661a697be7556e4d2a1b7dffb95363e36f28"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-guazhou-wind.mp3",
+      "path": "assets/voice/choice-guazhou-wind.mp3",
+      "bytes": 33788,
+      "sha256": "24f801d84864d193e9cb6a7a1a750913d09991f32848a21cf09d37e597d624e9"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-guazhou-friend.mp3",
+      "path": "assets/voice/choice-guazhou-friend.mp3",
+      "bytes": 27452,
+      "sha256": "f408eee5e4c12b1877e88eff962d4e150a2f6aad576d9dd50e8a12727658031d"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-dunhuang-0.mp3",
+      "path": "assets/voice/story-dunhuang-0.mp3",
+      "bytes": 42428,
+      "sha256": "d353b4d978325223a4fb5d3041340669943c87e8377411d3b3a49262d56c835d"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-dunhuang-1.mp3",
+      "path": "assets/voice/story-dunhuang-1.mp3",
+      "bytes": 48476,
+      "sha256": "b9850d77132d5b3b4ce11cdfa798387cc14252940cbea3cee234cb71db3c873b"
+    },
+    {
+      "source": "../public/canvas/world/voice/story-dunhuang-2.mp3",
+      "path": "assets/voice/story-dunhuang-2.mp3",
+      "bytes": 59420,
+      "sha256": "2e2e804c3868b922b92b68b30bd35b7f81dfe3ccabcba350e74c47568e32b240"
+    },
+    {
+      "source": "../public/canvas/world/voice/question-dunhuang.mp3",
+      "path": "assets/voice/question-dunhuang.mp3",
+      "bytes": 15644,
+      "sha256": "dad5214cba4e581e43d17e5b7a275fd1653ef621970c92ec25936396e201e290"
+    },
+    {
+      "source": "../public/canvas/world/voice/closing-dunhuang.mp3",
+      "path": "assets/voice/closing-dunhuang.mp3",
+      "bytes": 60572,
+      "sha256": "c8a94b092a922285a151aad4c6a0b75481ceb389e96484bb6bc680e0e85b5d76"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-dunhuang-friends.mp3",
+      "path": "assets/voice/choice-dunhuang-friends.mp3",
+      "bytes": 33212,
+      "sha256": "29ff1b841654a373ccf3f3538d1fd9d50e55c1689d06269f2b1d2d383b4b4023"
+    },
+    {
+      "source": "../public/canvas/world/voice/choice-dunhuang-colors.mp3",
+      "path": "assets/voice/choice-dunhuang-colors.mp3",
+      "bytes": 36812,
+      "sha256": "5b841f71ef2294c4bfe88cefd8e4448a009a8ab57d1d61b41e2a5d889ef13968"
+    },
+    {
+      "source": "../public/canvas/assets/voice/encounter-wuwei-well.mp3",
+      "path": "assets/voice/encounter-wuwei-well.mp3",
+      "bytes": 52364,
+      "sha256": "a2c0586fb20ad11feae56256fb340a66364bb36296780bebf55b6b7796f4ae14"
+    },
+    {
+      "source": "../public/canvas/assets/voice/encounter-wuwei-camel.mp3",
+      "path": "assets/voice/encounter-wuwei-camel.mp3",
+      "bytes": 55964,
+      "sha256": "b0b26eeefea114fc6f6ce0485f988fc19f40b2d84680130ee796a9317901e356"
+    },
+    {
+      "source": "../public/canvas/assets/voice/encounter-wuwei-ribbon.mp3",
+      "path": "assets/voice/encounter-wuwei-ribbon.mp3",
+      "bytes": 58988,
+      "sha256": "69ab2b8dda3742a56eaba6d5decb31e0ce3d8cca12922c9ef3afd58204eed009"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-zhangye-wheel.mp3",
+      "path": "assets/voice/encounter-zhangye-wheel.mp3",
+      "bytes": 54236,
+      "sha256": "0edd67254372f3d4397be8384e364c309118f15c61ca8be2adf3146f8d42c915"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-zhangye-bird.mp3",
+      "path": "assets/voice/encounter-zhangye-bird.mp3",
+      "bytes": 59132,
+      "sha256": "01a470dc7eb49d6f1aa6183b4a253b1de6f34617b56ba284254a2fdaa6226f86"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-zhangye-snow.mp3",
+      "path": "assets/voice/encounter-zhangye-snow.mp3",
+      "bytes": 50348,
+      "sha256": "afcc469504178361f56ab15bc586907a682a363faba7be8a2886428421b0d03a"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-jiuquan-grapes.mp3",
+      "path": "assets/voice/encounter-jiuquan-grapes.mp3",
+      "bytes": 58988,
+      "sha256": "0f3dab89451df13f6f1d1fc6dd3b75b6ea024c23cad5e076f0a24af864cff05f"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-jiuquan-letter.mp3",
+      "path": "assets/voice/encounter-jiuquan-letter.mp3",
+      "bytes": 60140,
+      "sha256": "59c077afcdad16f95654d10e7f6867a68aca0019236577a0d6a91c675bd483db"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-jiuquan-lantern.mp3",
+      "path": "assets/voice/encounter-jiuquan-lantern.mp3",
+      "bytes": 55964,
+      "sha256": "facbafc67faaf9b831e32d83d7a08ff19d8411b2574644ca7db46fbb11043c64"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-jiayuguan-brick.mp3",
+      "path": "assets/voice/encounter-jiayuguan-brick.mp3",
+      "bytes": 67772,
+      "sha256": "a82cc3d969e1038a593138cb9a4f322743cf061cc4297d74a8bef83439ac6101"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-jiayuguan-horizon.mp3",
+      "path": "assets/voice/encounter-jiayuguan-horizon.mp3",
+      "bytes": 54092,
+      "sha256": "3de3968a901467c5431228e25a4705b762ae0a710d2152abb4f9b2497b48c2d7"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-jiayuguan-arch.mp3",
+      "path": "assets/voice/encounter-jiayuguan-arch.mp3",
+      "bytes": 52940,
+      "sha256": "6f13170cf07487f84ec8c208ee9c432c84b941c37266feb9f5902f241064c22d"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-guazhou-pipa.mp3",
+      "path": "assets/voice/encounter-guazhou-pipa.mp3",
+      "bytes": 49196,
+      "sha256": "df5ed7b4f8784c746fc3e9e3eec96cb307770f02c5d21d4d522db5367dcdf75d"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-guazhou-reeds.mp3",
+      "path": "assets/voice/encounter-guazhou-reeds.mp3",
+      "bytes": 50924,
+      "sha256": "27ef1eb11d3c2a3c6f4391a156565d6b34e5cb7f022dd2574b38ef3bd5e7caf9"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-guazhou-caves.mp3",
+      "path": "assets/voice/encounter-guazhou-caves.mp3",
+      "bytes": 64028,
+      "sha256": "1ae758b24a59e3f1f6cf024f139ac06fc74eabb75a1f0018935cdc858591645f"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-dunhuang-lotus.mp3",
+      "path": "assets/voice/encounter-dunhuang-lotus.mp3",
+      "bytes": 57260,
+      "sha256": "7bc7a9526ae72e70c60fc5472335fc9f7fc23b0bc65fdf18336fa08b9aaea7e2"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-dunhuang-moon.mp3",
+      "path": "assets/voice/encounter-dunhuang-moon.mp3",
+      "bytes": 59276,
+      "sha256": "b59f6e1a01845a0d08974837099cb44d802d5862259c307f17ae8709d9b67913"
+    },
+    {
+      "source": "../public/canvas/world/voice/encounter-dunhuang-stars.mp3",
+      "path": "assets/voice/encounter-dunhuang-stars.mp3",
+      "bytes": 65900,
+      "sha256": "10de082863f7cae6073e6b204a023b7bd64a16f3863b4593d25d2680ad4ec7f2"
+    },
+    {
+      "source": "../public/canvas/assets/voice/game-pack.mp3",
+      "path": "assets/voice/game-pack.mp3",
+      "bytes": 41132,
+      "sha256": "385a9e942d8cf9cf49921ca4cdbc01b4b14f9a48d30480deeb999bff3d319925"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-water.mp3",
+      "path": "assets/voice/game-water.mp3",
+      "bytes": 41132,
+      "sha256": "06c154bcf5fd9b8e27b292aa3ce5769916d43e6d8cd694058af95abfdd131f28"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-memory.mp3",
+      "path": "assets/voice/game-memory.mp3",
+      "bytes": 27020,
+      "sha256": "e4c30539aa701f7e6589cc641de47f37dd589b02b71244b1d4af6bfcf269ac9f"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-route.mp3",
+      "path": "assets/voice/game-route.mp3",
+      "bytes": 33068,
+      "sha256": "92342fa6ef38d28d78bbda0089bfa2280fb300a947a305f357ee076573e96f80"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-music.mp3",
+      "path": "assets/voice/game-music.mp3",
+      "bytes": 36956,
+      "sha256": "2bc5d8b68176543dbaab9496a5a8da4804ac72fffb984601c259efb264b6288f"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-mural.mp3",
+      "path": "assets/voice/game-mural.mp3",
+      "bytes": 32348,
+      "sha256": "fca84af0d63e2635dee26ea95b2b0d16db5f87e66162e3ed8b2ddb093a844383"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-paint.mp3",
+      "path": "assets/voice/game-paint.mp3",
+      "bytes": 43868,
+      "sha256": "5f72ad306b0f55c1744ef8405ed4754c618be0c540470df0d408e681fb5b62b8"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-history.mp3",
+      "path": "assets/voice/game-history.mp3",
+      "bytes": 43148,
+      "sha256": "d60b3f06151f60995852f2189033d3ca51b1098545ed0f54399ffd5c4874a279"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-weave.mp3",
+      "path": "assets/voice/game-weave.mp3",
+      "bytes": 41132,
+      "sha256": "d34dd26d7e9c4c8661f5855e83834a5c24dd7275a0427d7a152d762bafb186a2"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-trade.mp3",
+      "path": "assets/voice/game-trade.mp3",
+      "bytes": 42284,
+      "sha256": "c7dcc61c4e4eaf37d460004e92f986ed9ea857a0c925e286fa8fa8b9b7eb1498"
+    },
+    {
+      "source": "../public/canvas/world/voice/game-stars.mp3",
+      "path": "assets/voice/game-stars.mp3",
+      "bytes": 46172,
+      "sha256": "30771a1d7950adf39c2d80d67bd222a07772a7112c2b48bdfead763e2b14ffcc"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-corridor.mp3",
+      "path": "assets/voice/fact-corridor.mp3",
+      "bytes": 48476,
+      "sha256": "45fca61aa7ddb37fc8353f838f11da2e231acd20c35947a01d512c784363c33c"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-qilian.mp3",
+      "path": "assets/voice/fact-qilian.mp3",
+      "bytes": 33068,
+      "sha256": "6ad4d82740a173f486844a037aed788578bb9d8a95461342d29a35685542498c"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-oasis.mp3",
+      "path": "assets/voice/fact-oasis.mp3",
+      "bytes": 34652,
+      "sha256": "4639f2e636df20bd18189c5c26d56d707853cf894badddb1d7cac516377d9cb1"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-silk.mp3",
+      "path": "assets/voice/fact-silk.mp3",
+      "bytes": 34364,
+      "sha256": "8c51c05071a86b7fbd690395c20c8f75d0f994200e225b283c9b0dfbd965424e"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-camel.mp3",
+      "path": "assets/voice/fact-camel.mp3",
+      "bytes": 39260,
+      "sha256": "008c775ee37214aeb9f98ca37564ede203721895e4334bd299f93f5a9e120767"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-shiyang.mp3",
+      "path": "assets/voice/fact-shiyang.mp3",
+      "bytes": 29468,
+      "sha256": "b49275dbdf63278c24fa8c969fb0145166398740bd8b4b2ee82296eb25ed0441"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-heihe.mp3",
+      "path": "assets/voice/fact-heihe.mp3",
+      "bytes": 31916,
+      "sha256": "4278ecea4bc544342a5d50a9690f75a21a78d0ddefa8d27e85c36b0788d4a417"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-danxia.mp3",
+      "path": "assets/voice/fact-danxia.mp3",
+      "bytes": 33212,
+      "sha256": "41492ca58319f184a842fc12405867389d88137195431623a67f9f54407a04af"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-exchange.mp3",
+      "path": "assets/voice/fact-exchange.mp3",
+      "bytes": 38396,
+      "sha256": "1d980b9215ff7daf25cef6f5e02839586ea07ffe5702456caa561a2bba4e5e7a"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-grape.mp3",
+      "path": "assets/voice/fact-grape.mp3",
+      "bytes": 39692,
+      "sha256": "714d2c8a8eb124286b5d75a5bf3cdcd01dfdf811531d65e3edfc9250b05ddfdb"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-gobi.mp3",
+      "path": "assets/voice/fact-gobi.mp3",
+      "bytes": 36092,
+      "sha256": "297572ac79f8c078f5d455170c8a84d9df6aaad2165f5d13b65c8ff49ad3381d"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-jiayu.mp3",
+      "path": "assets/voice/fact-jiayu.mp3",
+      "bytes": 29612,
+      "sha256": "b962e089366e0be493a5e133426642ba4a298e87b5daebc56caa984535c1f38a"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-fourcounties.mp3",
+      "path": "assets/voice/fact-fourcounties.mp3",
+      "bytes": 42140,
+      "sha256": "8ff2eb1f3fdef7f65138aeea1b36e78267edc1fe69079db21bef97ead7350a18"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-yulin.mp3",
+      "path": "assets/voice/fact-yulin.mp3",
+      "bytes": 31340,
+      "sha256": "c71968df15fd9e2338b0ffff341542b59ae416654a49c3eeaecafa35c37b8b34"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-music.mp3",
+      "path": "assets/voice/fact-music.mp3",
+      "bytes": 36236,
+      "sha256": "c3bbc683a4a35f1fe9b7d9139dad8e5e3a6218fbbeb79e1b6f4217315d8eabea"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-shule.mp3",
+      "path": "assets/voice/fact-shule.mp3",
+      "bytes": 28892,
+      "sha256": "001d13af8e00b1f4891cba3036e9bf8ea77a5a5a513dba697a02515618a5b845"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-mogao.mp3",
+      "path": "assets/voice/fact-mogao.mp3",
+      "bytes": 30620,
+      "sha256": "a573f62cf419c96013c65300a981dc835a9bb1a9dd24f991c58ec582a27bb233"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-pigments.mp3",
+      "path": "assets/voice/fact-pigments.mp3",
+      "bytes": 36236,
+      "sha256": "dbb816f28d6ab7c300711634166b0b7fa8e2325d193f5de45c79aa28a4449a0c"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-flying.mp3",
+      "path": "assets/voice/fact-flying.mp3",
+      "bytes": 36380,
+      "sha256": "c53cc35907cefad03f73732456d2a4912aaebc889cc649809e289bc31876294e"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-crescent.mp3",
+      "path": "assets/voice/fact-crescent.mp3",
+      "bytes": 37100,
+      "sha256": "f49b8186456c748aadb6f6982f3be0dc6320251bd7f33c3c6c12358c9027ec55"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-yumen.mp3",
+      "path": "assets/voice/fact-yumen.mp3",
+      "bytes": 28604,
+      "sha256": "b2be972810adf23d7db4932c083de33313c0c80463f3b57adcdc29a5d3c212e0"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-yangguan.mp3",
+      "path": "assets/voice/fact-yangguan.mp3",
+      "bytes": 27020,
+      "sha256": "3e2dcbfeb11fa0b2b15b57ada84b07f8a600e3bce69a7cbe16b1a4620432b4e8"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-xuanquan.mp3",
+      "path": "assets/voice/fact-xuanquan.mp3",
+      "bytes": 31772,
+      "sha256": "327ae26e4a2925bf02653f8d15ef0c8055c1fe1ebd96ae7057b3069b776f6380"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-library.mp3",
+      "path": "assets/voice/fact-library.mp3",
+      "bytes": 33644,
+      "sha256": "a820fe5d7090e5a8aeb0d6e102cc91ecbd68658a76926ee36589278f6eaab7e4"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-protect.mp3",
+      "path": "assets/voice/fact-protect.mp3",
+      "bytes": 40412,
+      "sha256": "8c31f6f766c9c64f8ec4882e29061027262e7df6d912ef8234d07da1abb67e98"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-horse.mp3",
+      "path": "assets/voice/fact-horse.mp3",
+      "bytes": 37388,
+      "sha256": "ab50de87fb9a4ca7b0337d53a4cad3133006bac2dd87f9457f1226941cae1547"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-dafo.mp3",
+      "path": "assets/voice/fact-dafo.mp3",
+      "bytes": 34940,
+      "sha256": "63d7c6f2c93a394091646df943208f2afb7fba8dc350965233a70601e030a6cb"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-suoyang.mp3",
+      "path": "assets/voice/fact-suoyang.mp3",
+      "bytes": 43724,
+      "sha256": "8618c85c720e10833c9305d2121c46a3ce83c539f8de6e82afd769a46c798a12"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-bricklife.mp3",
+      "path": "assets/voice/fact-bricklife.mp3",
+      "bytes": 39836,
+      "sha256": "a1beca43f5e3391861673f7b2a70e44f8584844dabccc65d1e0da816c5cf0057"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-rabbits.mp3",
+      "path": "assets/voice/fact-rabbits.mp3",
+      "bytes": 38828,
+      "sha256": "831af3b9bd5620e4500b5794963ea1d046cefa166b66fb32e15d6b4dd4f4affd"
+    },
+    {
+      "source": "../public/canvas/world/voice/fact-digital.mp3",
+      "path": "assets/voice/fact-digital.mp3",
+      "bytes": 34220,
+      "sha256": "714e1cad7c56b2fb249800cb67178d1ed79b1a168a9dc70d1d771ede295fb220"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-zhangqian.mp3",
+      "path": "assets/voice/history-zhangqian.mp3",
+      "bytes": 41276,
+      "sha256": "43a2a6beecd81fd3061573606937dfd09c6dbd8d366bd138226a18a51af7828e"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-huoqubing.mp3",
+      "path": "assets/voice/history-huoqubing.mp3",
+      "bytes": 55100,
+      "sha256": "fa380832537d2c9fa644cbf62bed20fc3669ecab06661f5954969d6ef9a6010e"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-counties.mp3",
+      "path": "assets/voice/history-counties.mp3",
+      "bytes": 47900,
+      "sha256": "5ab523bdb6ad1bff62dc719bb36872b72e2cdde3721a6bb48c788fcf1b390cb9"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-mogao.mp3",
+      "path": "assets/voice/history-mogao.mp3",
+      "bytes": 48044,
+      "sha256": "7a8d195711499b001482f9c8ab8d334cad95c25cb615a5bb48f96d80ced3b0d5"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-xuanzang.mp3",
+      "path": "assets/voice/history-xuanzang.mp3",
+      "bytes": 41276,
+      "sha256": "1fc8b87e6372f584e0426c35ddbd58741f5f6f18c76a3f0d36240e129a67d8f7"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-guiyi.mp3",
+      "path": "assets/voice/history-guiyi.mp3",
+      "bytes": 52940,
+      "sha256": "bb2ce7bcb9e0d419ab50efb9b3e34a52222778d7c657f7a24526961369a76b0d"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-dafo.mp3",
+      "path": "assets/voice/history-dafo.mp3",
+      "bytes": 43868,
+      "sha256": "62ddcde331ef9efbbba7cfa73c4fd06cfafde3c34f5bee5875d58ee78274f781"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-jiayuguan.mp3",
+      "path": "assets/voice/history-jiayuguan.mp3",
+      "bytes": 42572,
+      "sha256": "f8ce816c25e162d892fd6f4e9d889c2661608d8c0ef6d0917f0b537e332689a4"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-library.mp3",
+      "path": "assets/voice/history-library.mp3",
+      "bytes": 40124,
+      "sha256": "6b5ba9b5748f21b38ee1583207314cec5016103211646ed2d072e597c9c24535"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-research.mp3",
+      "path": "assets/voice/history-research.mp3",
+      "bytes": 45596,
+      "sha256": "2bb947a2f4ce4e993f77fe029166f83d1b3d43b56e4ea9c08d9af1a9b2727088"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-heritage.mp3",
+      "path": "assets/voice/history-heritage.mp3",
+      "bytes": 43436,
+      "sha256": "8b5d4cbba0fa765071d10c4aa7f1f7bf4fb476a65ad6f5b8300211de4edf575a"
+    },
+    {
+      "source": "../public/canvas/world/voice/history-digital.mp3",
+      "path": "assets/voice/history-digital.mp3",
+      "bytes": 46172,
+      "sha256": "f17ebcbaf7759c4112e3a60eab6d1b72fd4ed1010cda72bf6f3fcac8cad3c131"
+    },
+    {
+      "source": "../public/canvas/world/voice/letter-seeds.mp3",
+      "path": "assets/voice/letter-seeds.mp3",
+      "bytes": 59708,
+      "sha256": "9c822f219c4fe7654ff67c3de71d278c8c952e2c1503d894d688b616e7d248a1"
+    },
+    {
+      "source": "../public/canvas/world/voice/reply-seeds.mp3",
+      "path": "assets/voice/reply-seeds.mp3",
+      "bytes": 48476,
+      "sha256": "d0868139e071714e2c1ce1cd83e5c50b704ae5717088173dc231affa1de5750d"
+    },
+    {
+      "source": "../public/canvas/world/voice/letter-melody.mp3",
+      "path": "assets/voice/letter-melody.mp3",
+      "bytes": 60284,
+      "sha256": "b051af743bbc252856330242630b4a3dade0fb9984576fbd3d698a2b30592a69"
+    },
+    {
+      "source": "../public/canvas/world/voice/reply-melody.mp3",
+      "path": "assets/voice/reply-melody.mp3",
+      "bytes": 45020,
+      "sha256": "aefc3d95e2e770ef47a7204ffc26573aaa720ec540657dae2b57fc7d58879b75"
+    },
+    {
+      "source": "../public/canvas/world/voice/letter-colors.mp3",
+      "path": "assets/voice/letter-colors.mp3",
+      "bytes": 65180,
+      "sha256": "0c8f3f2997f4d503e686d5b257c9c79c516be51daa5467a185254bb41badbffd"
+    },
+    {
+      "source": "../public/canvas/world/voice/reply-colors.mp3",
+      "path": "assets/voice/reply-colors.mp3",
+      "bytes": 45740,
+      "sha256": "86fc09dd507e236c7173da3c15dd9efd1b65356dd1ea26d030ade2095571026b"
+    },
+    {
+      "source": "../public/canvas/assets/notes/bell-0.mp3",
+      "path": "assets/notes/bell-0.mp3",
+      "bytes": 8684,
+      "sha256": "e593b1452a6704ccca1126b348d18cdde5a6da98471dd98f5db3939371a6df0f"
+    },
+    {
+      "source": "../public/canvas/assets/notes/bell-1.mp3",
+      "path": "assets/notes/bell-1.mp3",
+      "bytes": 8684,
+      "sha256": "a9b7b4619284c5d4bf0ef7058c86ac0b7dd7c42ec47159a128a38944e5ab4af5"
+    },
+    {
+      "source": "../public/canvas/assets/notes/bell-2.mp3",
+      "path": "assets/notes/bell-2.mp3",
+      "bytes": 8684,
+      "sha256": "23a500d552c2f430a3e428673d36ba31f12f1f8698f608a30cf7b85bba877416"
+    },
+    {
+      "source": "../public/canvas/assets/notes/bell-3.mp3",
+      "path": "assets/notes/bell-3.mp3",
+      "bytes": 8684,
+      "sha256": "e17adbf72ce7203c0ce5c65a906942dd5e1cb89f296139230a00334bf64c9993"
+    },
+    {
+      "source": "../public/canvas/assets/notes/bell-4.mp3",
+      "path": "assets/notes/bell-4.mp3",
+      "bytes": 8684,
+      "sha256": "b89b3022f547d92410f4f3b00761475d603a82e71c29e8f0b20a507911619b1a"
+    },
+    {
+      "source": "../public/canvas/assets/notes/wood-0.mp3",
+      "path": "assets/notes/wood-0.mp3",
+      "bytes": 8684,
+      "sha256": "5e27d84b970ee6eba5635fbf26c00e63ac28d78e54a5c93792a8cd9164729039"
+    },
+    {
+      "source": "../public/canvas/assets/notes/wood-1.mp3",
+      "path": "assets/notes/wood-1.mp3",
+      "bytes": 8684,
+      "sha256": "1813e285c09a7d06038d531bfcb106b0f9f8d7dd02dd9f3f31fb370f5454ce2c"
+    },
+    {
+      "source": "../public/canvas/assets/notes/wood-2.mp3",
+      "path": "assets/notes/wood-2.mp3",
+      "bytes": 8684,
+      "sha256": "e99393d186721967b4095012c782f814ea70d2c7b8767a99fe9741777f0a03d7"
+    },
+    {
+      "source": "../public/canvas/assets/notes/wood-3.mp3",
+      "path": "assets/notes/wood-3.mp3",
+      "bytes": 8684,
+      "sha256": "c42eef38827e0da8be2a673cd699c03b79407b65067d03723f7ff2f3f85928d6"
+    },
+    {
+      "source": "../public/canvas/assets/notes/wood-4.mp3",
+      "path": "assets/notes/wood-4.mp3",
+      "bytes": 8684,
+      "sha256": "c1c99087203bc6b0cbe06cc40e685e6e34cc1d2bdafa440998e075957ddf6911"
+    },
+    {
+      "source": "../public/canvas/assets/notes/lute-0.mp3",
+      "path": "assets/notes/lute-0.mp3",
+      "bytes": 8684,
+      "sha256": "ea9f2e29d2376f317772a9ca8d073bc7d84495b832096d0d863856a39c506981"
+    },
+    {
+      "source": "../public/canvas/assets/notes/lute-1.mp3",
+      "path": "assets/notes/lute-1.mp3",
+      "bytes": 8684,
+      "sha256": "7057862dcf042a7cd07bd20d55ae1f3a4c22f171ed656967258383ad41cbf5b0"
+    },
+    {
+      "source": "../public/canvas/assets/notes/lute-2.mp3",
+      "path": "assets/notes/lute-2.mp3",
+      "bytes": 8684,
+      "sha256": "8d4d9d0bd926dd5c86f71bfe423df4bc5659b3636ab4a03ae5f9d7e96519a78f"
+    },
+    {
+      "source": "../public/canvas/assets/notes/lute-3.mp3",
+      "path": "assets/notes/lute-3.mp3",
+      "bytes": 8684,
+      "sha256": "0746f562f3a1fc8a77e624c4c4a0bcc65882f0acc1c0010032008b68980557ab"
+    },
+    {
+      "source": "../public/canvas/assets/notes/lute-4.mp3",
+      "path": "assets/notes/lute-4.mp3",
+      "bytes": 8684,
+      "sha256": "ed59e2134d0de0bab3b3dd07fc471e5cfe7a365ca96601ba0242758cbff7283e"
+    }
+  ]
+}

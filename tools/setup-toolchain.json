@@ -1,0 +1,44 @@
+{
+  "godot": {
+    "filename": "Godot_v4.7.2-stable_macos.universal.zip",
+    "url": "https://downloads.godotengine.org/?version=4.7.2&flavor=stable&slug=macos.universal.zip&platform=macos.universal",
+    "sha256": "c58a24e31d720be9d62f60cb5627c4e695fb72f21b0cfe1bc9ccaa9a3b3ba63e",
+    "license": "MIT; bundled third-party notices"
+  },
+  "templates": {
+    "filename": "Godot_v4.7.2-stable_export_templates.tpz",
+    "url": "https://downloads.godotengine.org/?version=4.7.2&flavor=stable&slug=export_templates.tpz&platform=templates",
+    "sha256": "f298490b8d44d934be425a5a65a51bf15f422428b229a06a6e11d9ffea248011",
+    "license": "MIT; bundled third-party notices"
+  },
+  "jdk": {
+    "filename": "OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.21.1_2.tar.gz",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1%2B2/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.21.1_2.tar.gz",
+    "sha256": "2a88ccb044a8fb00957be93245da6357c11b55717511509d147cbcc5d93b2109",
+    "license": "GPL-2.0 with Classpath Exception; development tool only"
+  },
+  "commandline": {
+    "filename": "commandlinetools-mac-13114758_latest.zip",
+    "url": "https://dl.google.com/android/repository/commandlinetools-mac-13114758_latest.zip",
+    "sha256": "5673201e6f3869f418eeed3b5cb6c4be7401502bd0aae1b12a29d164d647a54e",
+    "license": "Android SDK License Agreement; bundled NOTICE.txt"
+  },
+  "platform_tools": {
+    "filename": "platform-tools_r37.0.1-darwin.zip",
+    "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-darwin.zip",
+    "sha256": "ee39ad5967e95c2a07f04dbcbde96b1a0c916ba376096db5d2f498b7727a5d1d",
+    "license": "Android SDK License Agreement; bundled NOTICE.txt"
+  },
+  "build_tools": {
+    "filename": "build-tools_r36_macosx.zip",
+    "url": "https://dl.google.com/android/repository/build-tools_r36_macosx.zip",
+    "sha256": "04e7f3a72044de4926fa038fa0e251a37bba1e1c3fb8beab6f8401bfd9eb4bf3",
+    "license": "Android SDK License Agreement; bundled NOTICE.txt"
+  },
+  "platform": {
+    "filename": "platform-36_r02.zip",
+    "url": "https://dl.google.com/android/repository/platform-36_r02.zip",
+    "sha256": "37607369a28c5b640b3a7998868d45898ebcb777565a0e85f9acf36f29631d2e",
+    "license": "Android SDK License Agreement; bundled NOTICE.txt"
+  }
+}
